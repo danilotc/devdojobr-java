@@ -1,0 +1,14 @@
+Nesta aula apenas organizamos o código em pacotes seguindo a seguinte convensão que nos orienta a criar pacotes com o endereço do site da empresa ao contrário, por exemplo:
+  - oracle.com    ==> com.oracle
+  - google.com.br ==> br.com.google
+  - microsoft.com ==> com.microsoft
+
+No meu caso usei 'edu' seguido no meu 'user' com o nome do curso e o tipo de matéria, a estrutura fica dessa forma:
+  - edu
+     - danilotc
+        - maratonajava
+           - introducao
+
+A estrutura fica assim: edu.danilotc.maratonajava.introducao
+
+Lembrando que o último (introducao) sempre irá mudar conforme o tema apresentado, por exemplo, quando começar orientação a objetos mudarei para 'oo' ou 'poo' ou 'orientacaoobjeto' ou algo semelhante. Quando for exceções criarei outro chamado 'excecoes' e por ai vai. Assim, o código fica separado de acordo com assuntos específicos tratados no decorrer do curso.
