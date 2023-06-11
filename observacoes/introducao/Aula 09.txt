@@ -1,0 +1,22 @@
+Comentários devem ser usados com muito cuidado e somente quando necessário. A recomendação é escrever comentários apenas em métodos públicos quando realmente for necessário. Entretanto, os tipos de comentários foram apresentados para conhecermos, já que estamos em processo de estudo.
+
+====> TIPOS DE COMENTÁRIOS <====
+
+Comentários de uma linha são escritos com // quando ocupar uma única linha
+
+// Exemplo de comentário simples de uma linha
+
+Comentários com múltiplas linhas são escritos entre  /* e */
+
+/*
+Exemplo de
+comentário com
+múltiplas linhas
+*/
+
+E comentários para documentação são escritos entre /** e */
+
+/**
+ Este é um <b>exemplo</b> de comentário
+ usado para documentar o código
+ */
