@@ -1,0 +1,20 @@
+Nestas primeiras aulas foi apresentado alguns conceitos básicos e importantes sobre o funcionamento do Java, como a diferença entre JDK, JVM e JRE, bem como qual ferramenta iremos usar, onde baixar, como instalar e suas principais configurações, por exemplo, as variáveis de ambiente (Windows) para que o JDK funcione corretamente para que possamos compilar e executar os programas, além de mostrar a estrutura de diretórios de um projeto básico em Java dentro da ferramenta utilizada (Intellij IDEA).
+
+Para entender como funciona a configuração das variáveis de ambiente, compilação e execução de um programa básico em Java, no Linux, sugiro avaliar o arquivo que escrevi chamado "instalar-jdk-e-config-ambiente" na pasta "pdfs".
+
+Além disso, como pode ser visto no arquivo mencionado, antes de baixar e instalar a ferramenta ele também mostrou, no ambiente Windows, porém no arquivo mostrei os mesmos processos no ambiente Linux:
+ - Como escrever um código Java usando bloco de notas;
+ - Como compilar e gerar um arquivo bytecode e;
+ - Como executar o arquivo bytecode usando terminal.
+
+Este é um trabalho miserável, muitos criticam este passo e querem ir direto para uma IDE, mas eu o considero importante para entender como o Java funciona nos bastidores em relação a compilação e execução, coisas que a IDE faz automaticamente.
+
+=====> LINKS UTILIZADOS <=====
+
+No site da Oracle devemos acessar a seguinte página, nela haverá um botão chamado "Download Java Now" que nos levará para uma página com todas as versões LTS disponíveis para download:
+
+https://www.oracle.com > Products > Java > Download Java Now
+
+Existe também a possibilidade de acessar a página da Azul que disponibiliza versões do JDK de forma open source, para isso acesse o link abaixo e escolha a versão correspondente a sua plataforma:
+
+https://www.azul.com > Download Now
