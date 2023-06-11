@@ -1,0 +1,13 @@
+Aqui a estrutura básica foi apresentada, essa estrutura consiste em uma classe contendo apenas um método conhecido como "principal", pois é este método que dá início a um programa Java, é o método main. Além disso, também criamos uma instrução para mostrar um texto no console.
+
+Ele também falou brevemente sobre algumas palavras-chave, as convenções de nomenclatura para classe que segue a convensão CamelCase.
+
+=====> LINKS ÚTEIS <=====
+
+Alguém criou esta página com acentos no link, um erro que pode nos atrapalhar se não ficarmos atentos
+
+https://www.javatpoint.com/pt/convenções-de-nomenclatura-java
+
+Outro link para entender um pouco mais sobre essas convenções, embora eu tenha ficado confuso em relação ao CamelCase apresentado, é camelCase ou PascalCase?
+
+https://www.alura.com.br/artigos/convencoes-nomenclatura-camel-pascal-kebab-snake-case
