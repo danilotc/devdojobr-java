@@ -1,0 +1,17 @@
+=====> ENUNCIADO <=====
+
+Crie variáveis para os campos descritos entre <> e imprima a seguinte mensagem:
+Eu, <nome>, morando no endereço <endereço>,
+confiirmo que recebi o salário de <salário>, na data <data>
+
+-----------------------
+
+Nesta aula também foi mostrado como podemos usar o Debug para analisar a execução do código em cada linha de execução, uma ferramenta muito útil para encontrar possíveis problemas que não gerem o resultado esperado.
+
+=====> OBSERVAÇÃO <=====
+
+Este exercício contém a estrutura básica de um algoritmo que consiste nos elementos de ENTRADA, PROCESSAMENTO e SAÍDA, sendo eles:
+
+ 1. Os elementos de ENTRADA são as variáveis que contém os valores armazenados;
+ 2. O elemento de PROCESSAMENTO é aquele que faz a montagem do texto final e;
+ 3. O elemento de SAÍDA é a instrução que exibe o resultado no console.

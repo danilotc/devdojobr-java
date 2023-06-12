@@ -38,7 +38,7 @@ A. Os assuntos são esses aqui:
 1. [X] Maratona Java 11 - Tipos primitivos pt 02 - declaração e tamanho em memória
 1. [X] Maratona Java 12 - Tipos primitivos pt 03 - casting
 1. [x] Maratona Java 13 - Tipos primitivos pt 04 - Strings
-1. [ ] Maratona Java 14 - Tipos primitivos pt 05 - Exercício
+1. [X] Maratona Java 14 - Tipos primitivos pt 05 - Exercício
 1. [ ] Maratona Java 15 - Operadores pt 01 - Aritiméticos
 1. [ ] Maratona Java 16 - Operadores pt 02 - Relacionais
 1. [ ] Maratona Java 17 - Operadores pt 03 - Lógicos AND
