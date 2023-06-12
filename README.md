@@ -36,7 +36,7 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 09 - Comentários
 1. [x] Maratona Java 10 - Tipos primitivos pt 01 - convenções de variáveis
 1. [X] Maratona Java 11 - Tipos primitivos pt 02 - declaração e tamanho em memória
-1. [ ] Maratona Java 12 - Tipos primitivos pt 03 - casting
+1. [X] Maratona Java 12 - Tipos primitivos pt 03 - casting
 1. [ ] Maratona Java 13 - Tipos primitivos pt 04 - Strings
 1. [ ] Maratona Java 14 - Tipos primitivos pt 05 - Exercício
 1. [ ] Maratona Java 15 - Operadores pt 01 - Aritiméticos

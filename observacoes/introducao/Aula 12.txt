@@ -1,0 +1,22 @@
+No Java o valor real é double por padrão, por isso, se não for adicionado a letra "d" ou "D" no final do valor o compilador irá reconhecê-lo como sendo do tipo double. Case se defina uma variável com tipo float com casas decimais sem adicionar "f" ou "F" no final o compilador irá reclamar dizendo que não é possível atribuir um valor do tipo double em variável do tipo float.
+
+ERRO DE COMPILAÇÃO (147.82 é double por padrão):
+    float numero = 147.82;
+
+POSSÍVEL SOLUÇÃO:
+    float numero = 147.82F;
+
+USANDO CAST, COMO NO EXEMPLO:
+    float numero = (float) 147.82;
+
+Como tratado em aula, o problema de usar cast é a perda de precisão nos valores, nestes casos a melhor solução é trocar o tipo da variável. Veja como exemplo o caso da variável numeroInt com valor 10000000000 ao ser convertido por meio de cast passou a ser 1410065408 ocorrendo perda de valores para caber dentro do tipo int.
+
+=====> LINKS ÚTEIS <=====
+
+https://docs.oracle.com/javase/tutorial/java/index.html
+
+https://docs.oracle.com/en/cloud/paas/integration-cloud/user-processes/casting.html
+
+https://www.javatpoint.com/type-casting-in-java
+
+https://www.w3schools.com/java/java_type_casting.asp

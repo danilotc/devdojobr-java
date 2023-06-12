@@ -5,14 +5,14 @@ public class TiposPrimitivos01 {
         // int, long, byte, short, double, float, char, boolean
 
         // tipos primitivos inteiros
-        int numeroInt = 10;
-        long numeroLong = 100000L;
+        int numeroInt = (int) 10000000000L; // cast de long para int
+        long numeroLong = (long) 155.23D; // cast de double para long
         byte numeroByte = -128;
         short numeroShort = 10;
 
         // tipos primitivos reais (com casas decimais)
         double numeroDouble = 2000.0D;
-        float numeroFloat = 2500.0F;
+        float numeroFloat = (float) 2500.0; // cast de double para float
 
         // tipos primitivos lógicos
         boolean valorBooleanVerdadeiro = true;
