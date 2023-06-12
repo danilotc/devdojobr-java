@@ -1,0 +1,8 @@
+Esta foi uma aula feita para fazer uma introdução muito breve sobre o tipo String. Isso foi feito para complementar os conhecimentos sobre tipos primitivos e possibilitar a conclusão do exercício proposto na próxima aula.
+
+String é um objeto que armazena cadeia de caracteres, seu valor é sempre envolvido entre áspas duplas.
+
+String nome = "Nome"
+String endereco = "Rua X, 788 - Centro"
+
+Esse tipo de dados será explorado quando chegarmos nas Wrappers Classes.

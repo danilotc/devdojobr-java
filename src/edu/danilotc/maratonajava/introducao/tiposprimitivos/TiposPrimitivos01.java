@@ -23,6 +23,9 @@ public class TiposPrimitivos01 {
         // ascii: 87 para W, 65 para A
         char valorCharComCaracterUnico = '\u0041';
 
+        // não é tipo primitivo, é um tipo objeto
+        String valorString = "Goku";
+
         System.out.println("numeroInt: "+numeroInt);
         System.out.println("numeroLong: "+numeroLong);
         System.out.println("numeroByte: "+numeroByte);
@@ -32,5 +35,6 @@ public class TiposPrimitivos01 {
         System.out.println("valorBooleanVerdadeiro: "+valorBooleanVerdadeiro);
         System.out.println("valorBooleanFalso: "+valorBooleanFalso);
         System.out.println("valorCharComCaracterUnico: "+valorCharComCaracterUnico);
+        System.out.println("valorString: "+valorString);
     }
 }
