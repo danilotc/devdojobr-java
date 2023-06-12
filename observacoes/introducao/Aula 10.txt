@@ -1,0 +1,73 @@
+Nesta aula foi apresentado os tipos primitivos do Java aqueles que, obrigatoriamente, são escritos com letra minúscula e servem para determinar o tipo de uma variável.
+
+Diferente de outras linguagens como Python, em Java, toda variável precisa ter o tipo muito bem definido e isso é feito, basicamente, através dos tipos primitivos.
+
+Os tipos primitivos do Java são:
+  - INTEIROS
+    - int
+    - long
+    - byte
+    - short
+  - REAIS (com casas decimais)
+    - double
+    - float
+  - CARACTER (um único caracter)
+    - char
+  - LÓGICO (apenas verdadeiro ou falso - true/false)
+    - boolean
+
+Também foi apresentado alguns conceitos de concatenação mostrando que o sinal "+" ao ser utilizado entre duas cadeias de caracteres serve como concatenador e não como sinal de adição, neste caso, ele irá juntar dois textos, o texto à esquerda com o texto à direita, exemplo:
+
+O texto
+"Danilo" + "Castro"
+
+Resulta em
+DaniloCastro
+
+Também foi falado sobre a convenção definindo que os nomes de variáveis devem ser escritos com letra minúscula e se for um nome composto, cada uma das palavras devem ser iniciadas com letra maiúscula e sem caracteres especiais ou espaços, exemplo:
+
+VÁLIDO: endereco
+INVÁLIDO: endereço
+
+VÁLIDO: nomeCompleto
+INVÁLIDO: Nome Completo
+
+VÁLIDO: telefone5
+INVÁLIDO: 5telefone
+
+=====> LINKS ÚTEIS <=====
+
+Conteúdo direto do site oficial da Oracle (dona do Java)
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html
+
+-------------------------
+
+O bom deste site (w3schools) são os exemplos, os exercícios e a possibilidade de interação
+https://www.w3schools.com/java/java_data_types.asp
+https://www.w3schools.com/java/java_variables.asp
+
+-------------------------
+
+Apenas tome cuidado com os exemplos deste site, eles declaram duas variáveis na mesma linha separando-as com vírgula, o compilador do Java não permite isso, é necessário separar com ponto-e-vírgula, exemplo:
+
+ERRADO:
+    byte a = 10, byte b = -20;
+
+CORRETO:
+    byte a = 10; byte b = -20;
+
+RECOMENDADO (uma instrução por linha):
+    byte a 10;
+    byte b -20;
+
+Caso você tente copiar os exemplos deste link, tome cuidado, essa foi uma dificuldade que alguns colegas na faculdade enfrentaram também, portanto, fique atento.
+
+https://www.javatpoint.com/java-data-types
+https://www.javatpoint.com/java-variables
+
+-------------------------
+
+GeeksForGeeks
+https://www.geeksforgeeks.org/data-types-in-java
+https://www.geeksforgeeks.org/variables-in-java

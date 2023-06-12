@@ -34,7 +34,7 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 07 - Conhecendo a IDE IntelliJ Community
 1. [x] Maratona Java 08 - Organizando o código em pacotes
 1. [x] Maratona Java 09 - Comentários
-1. [ ] Maratona Java 10 - Tipos primitivos pt 01 - convenções de variáveis
+1. [x] Maratona Java 10 - Tipos primitivos pt 01 - convenções de variáveis
 1. [ ] Maratona Java 11 - Tipos primitivos pt 02 - declaração e tamanho em memória
 1. [ ] Maratona Java 12 - Tipos primitivos pt 03 - casting
 1. [ ] Maratona Java 13 - Tipos primitivos pt 04 - Strings
