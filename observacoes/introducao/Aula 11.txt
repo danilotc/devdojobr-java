@@ -1,0 +1,17 @@
+Nesta aula definimos todos os tipos primitivos e foi falado sobre mais algumas características de alguns tipos, por exemplo, o tipo double, float e long que terminam com uma letra após seu valor.
+
+  - long numeroMuitoGrande = 1000000000L;
+  - double salario = 5000.0D;
+  - float peso = 83.2F;
+
+Além disso, também foi mostrado algumas características do tipo char, esse é um tipo que aceita apeans um byte, ou seja, um único caractere, porém esse caractere é, nos bastidores, um número. Foi mostrado também que podemos usar a tabela ASCII e a tabela de Unicode para gerar valores que podem ser armazenados nesse tipo de variável.
+
+Cada tipo de variável consegue guardar uma quantidade de informações, essa quantidade é definida em algumas tabelas as quais podem ser encontradas nos endereços disponíveis a seguir.
+
+=====> LINKS ÚTEIS <=====
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+
+https://www.w3schools.com/java/java_data_types.asp
+
+https://www.javatpoint.com/java-data-types
