@@ -1,0 +1,31 @@
+Esta aula foi sobre os OPERADORES ARITMÉTICOS, lembrando que o operador módulo retorna o resto de uma divisão inteira e normalmente usado para verificar se um número é par ou ímpar, ou seja, se x % 2 == 0, o número é par, do contrário, é ímpar:
+
+ + adição
+ - subtração
+ * multiplicação
+ / divisão
+ % módulo
+
+Observação: O sinal de adição dentro do comando de impressão pode resultar em valores inesperados, isso deve ser estudado com cautela se o objetivo for obter certificação:
+
+Exemplos:
+10 + 20
+"Texto" + 10 + 20
+10 + 20 + "Texto" + 10 + 20
+
+Resultados:
+30
+Texto1020
+30Texto1020
+
+Ou seja, o compilador faz a leitura de cima para baixo da esquerda para a direita, então se ele encontrar primeiro um texto e o próximo caracter for um sinal de adição, este sinal será um concatenador, mesmo que o próximo valor seja numérico.
+
+Por outro lado, se o valor lido antes do sinal de adição for numérico, este sinal irá somar com o próximo valor lido, caso seja numérico também, do contrário, irá concatenar.
+
+Além disso, no exemplo apresentado na linha 7 do código-fonte, a divisão de dois números inteiros irá resulta em outro valor inteiro, ou seja, se o resultado for um valor com casas decimais esse "decimal" será perdido. Para evitar essa perda pelo menos uma das variáveis precisa ser do tipo real (double ou float), ou realizar um cast na divisão, como no exemplo.
+
+=====> LINKS ÚTEIS <=====
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op1.html
+https://www.geeksforgeeks.org/java-arithmetic-operators-with-examples
+https://www.w3schools.com/java/java_operators.asp
