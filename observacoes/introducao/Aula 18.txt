@@ -1,0 +1,11 @@
+=====> Operador || <=====
+
+Este é o operador lógico "OU" representado pelo símbolo ||, na tabela verdade esse operador retorna verdadeiro se pelo menos um dos valores comparados for verdadeiro ou se ambos forem verdadeiros e retorna falso somente se ambos os valores comparados forem falsos.
+
+Observe também que o código segue a estrutura básica com os três elementos principais: ENTRADA, PROCESSAMENTO e SAÍDA.
+
+=====> LINKS ÚTEIS <=====
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op2.html
+https://www.w3schools.com/java/java_operators.asp
+https://www.geeksforgeeks.org/java-logical-operators-with-examples
