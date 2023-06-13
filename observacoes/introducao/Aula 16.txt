@@ -1,0 +1,18 @@
+Esta aula foi sobre os OPERADORES DE COMPARAÇÃO conhecidos como RELACIONAIS porque eles comparam a relação entre dois valores verificando se são maiores, diferentes, iguais conforme os operadores a seguir:
+
+ <  menor
+ <= menor que ou igual a
+ >  maior
+ <= maior que ou igual a
+ == igual
+ != diferente
+
+Esses operadores são usados para comparar dois valores resultando sempre em um valor do tipo lógico, por isso o resultado de uma expressão com estes operadores precisa ser armazenado em variáveis do tipo boolean.
+
+Uma observação é mostrada na comparação entre valores inteiros e decimais, veja que 10 é igual a 10.0 porque embora sejam de tipos diferentes, ambos são tipos comparáveis e isso basta para esses operadores realizarem seu trabalho.
+
+=====> LINKS ÚTEIS <=====
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op2.html
+https://www.geeksforgeeks.org/java-relational-operators-with-examples
+https://www.w3schools.com/java/java_operators.asp
