@@ -1,0 +1,54 @@
+O operador de atribuição mais básico que existe é o operador "=" que atribui valores em variáveis, mas este não é o único, existem outros utilizados em conjunto com este para manter o código mais simiples.
+
+Estes são os operadores de atribuição:
+
+ =  atribuição simples, neste exemplo coloca o valor 10 na 'minhaVariável'
+    minhaVariavel = 10
+
+ += soma o valor 23 com o valor que já existe na variável antes de receber o novo valor
+    minhaVariavel = minhaVariavel + 23
+    minhaVariavel += 23
+
+ -= subtrai o valor 5 do valor que já existe na variável antes de receber o novo valor
+    minhaVariavel = minhaVariavel - 5
+    minhaVariavel -= 5
+
+ *= multiplica o valor presente na variável por 5 antes de receber o novo valor
+    minhaVariavel = minhaVariavel * 5
+    minhaVariavel *= 5
+
+ /= divide o valor que já existe na variável por 2 antes de receber o novo valor
+    minhaVariavel = minhaVariavel / 2
+    minhaVariavel /= 2
+
+ %= verifica se o valor que está na variável possui resto se dividido por 2
+    minhaVariavel = minhaVariavel % 2
+    minhaVariavel %= 2
+
+Existe também os operadores de incremento que são muito utilizados em estruturas de repetição, inclusive tem uma que estes operadores são usados nativamente, spoiler é a estrutura for...
+
+Os operadores de incremento/decremento são:
+
+ ++ incrementa em 1
+ -- decrementa em 1
+
+Exemplos de uso:
+
+Pós-incremento, primeiro usa a variável e depois incrementa
+    minhaVariavel++
+
+Pré-incremento, primeiro incrementa e depois usa a variável
+    ++minhaVariavel
+
+Pós-decremento, primeiro usa a variável e depois decrementa
+    minhaVariavel--
+
+Pré-incremento, primeiro decrementa e depois usa a variável
+    --minhaVariavel
+
+OBSERVAÇÃO: Estes operadores permitem o incremente em apenas uma unidade, ou seja, se você fizer 5++ o resultado será 6 ou se fizer 5-- o resultado será 4, considerando as regras de incremento e decremento apresentadas acima.
+
+=====> LINKS ÚTEIS <=====
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op1.html
+https://www.w3schools.com/java/java_operators.asp
