@@ -41,7 +41,7 @@ A. Os assuntos são esses aqui:
 1. [X] Maratona Java 14 - Tipos primitivos pt 05 - Exercício
 1. [x] Maratona Java 15 - Operadores pt 01 - Aritiméticos
 1. [x] Maratona Java 16 - Operadores pt 02 - Relacionais
-1. [ ] Maratona Java 17 - Operadores pt 03 - Lógicos AND
+1. [x] Maratona Java 17 - Operadores pt 03 - Lógicos AND
 1. [ ] Maratona Java 18 - Operadores pt 04 - Lógicos OR
 1. [ ] Maratona Java 19 - Operadores pt 05 - Atribuição
 1. [ ] Maratona Java 20 - Estruturas Condicionais pt 01 - IF

@@ -1,0 +1,11 @@
+=====> Operador && <=====
+
+Este é o operador lógico "E" representado pelo símbolo &&, na tabela verdade esse operador retorna verdadeiro somente quando ambos os valores comparados forem verdadeiros, se apenas um deles for falso, toda expressão resultará em falso.
+
+Observe também que o código segue a estrutura básica com os três elementos principais: ENTRADA, PROCESSAMENTO e SAÍDA.
+
+=====> LINKS ÚTEIS <=====
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op2.html
+https://www.w3schools.com/java/java_operators.asp
+https://www.geeksforgeeks.org/java-logical-operators-with-examples
