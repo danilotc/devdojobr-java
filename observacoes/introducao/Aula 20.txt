@@ -1,0 +1,67 @@
+Estruturas Condicionais pt 01 - IF
+
+Esta aula foi sobre a estrutura condicional IF e como ela faz as avaliações. No código-fonte tem alguns exemplos de execução quando a avaliação for verdadeira ou quando a mesma for negada.
+
+
+ESTRUTURA
+
+if (condição) {
+    instrução 1;
+    instrução 2;
+    instrução 3;
+}
+
+
+OBSERVAÇÕES SOBRE A ESTRUTURA
+
+(1) Se o código entre { e } for uma única instrução, essas chaves passam a ser opcionais, porém a instrução precisa estar identada para indicar que faz parte do escopo avaliado na condição, verificando se essa instrução será executada ou não. Cada instrução é finalizada com ponto e vírgula (;), conforme exemplo a seguir. "Escopo" é o espaço delimitado por { e }.
+
+Obs.: Mesmo que haja uma única instrução, é boa prática sempre usar chaves para delimitar o escopo.
+
+if (condição)
+    única linha de código a ser executada;
+
+(2) Quando há uma única instrução no escopo, não precisa pular linha, conforme exemplo a seguir.
+
+if (condição) única linha de código a ser executada;
+
+
+COMO A NEGAÇÃO ACONTECE
+
+Existe um operador unário usado para negar uma avaliação booleana, este operador é utilizado da seguinte forma, conforme os exemplos abaixo e no código-fonte.
+
+Neste exemplo a intrução sempre será executada
+if (verdade) {
+    instrução;
+}
+
+Neste exemplo a instrução não será executada, há uma negação
+if (verdade == false) {
+    instrução;
+}
+
+Neste exemplo o operador (!) está negando o valor da variável
+if (!verdade) {
+    instrução;
+}
+
+
+CERTIFICAÇÃO
+
+Isso não será visto como realidade no mercado, porém se estiver disposto a tirar certificação é bom ficar atento a esse tipo de avaliação em que a variável recebe (ou compara) um valor antes de executar o IF, conforme exemplo a seguir.
+
+boolean c = false;
+if (c = true) {
+    System.out.println("Dentro de algo que nunca deve ser feito");
+}
+
+Neste exemplo, a estrutura só avalia a condição depois que a atribuição acontece, pois um único operador é usado, o operador de atribuição "=" que muda o valor inicial da variável "c" possibilitando a execução das instruções no bloco delimitado por { e }.
+
+
+=====> LINKS ÚTEIS <=====
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html
+
+https://www.w3schools.com/java/java_conditions.asp
+
+https://www.javatpoint.com/java-if-else
