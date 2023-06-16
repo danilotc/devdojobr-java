@@ -1,0 +1,24 @@
+Estruturas Condicionais pt 02 - ELSE IF
+
+Esta aula mostra outra forma de negar uma instrução sem a necessidade de usar o operador de negação not (!). Isso é feito usando uma segunda estrutura condicional conhecida como else-if.
+
+
+ESTRUTURA
+
+if (condição1) {
+    instrução a ser executada se a condição1 for verdadeira
+} else if (condição2) {
+    instrução a ser executada se a condição1 for falsa e a condição2 for verdadeira
+} else {
+    instrução a ser executada se as condições anteriores forem falsas
+}
+
+No caso do exemplo visto na última aula, o código-fonte do arquivo Condicional01If foi modificado sendo apenas adicionado a segunda parte da estrutura.
+
+Já o código-fonte no arquivo Condicional02ElseIf contém o exemplo completo do fluxo de uma estrutura que usa if, else-if. Esse tipo de estrutura é conhecida como estrutura condicional composta. Pensando nisso, considere a seguinte informação implementada no código-fonte.
+
+----------------------------------------------
+idade < 15                | categoria infantil
+idade >= 15 && idade < 18 | categoria juvenil
+idade >= 18               | categoria adulto
+----------------------------------------------

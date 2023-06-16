@@ -45,7 +45,7 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 18 - Operadores pt 04 - Lógicos OR
 1. [x] Maratona Java 19 - Operadores pt 05 - Atribuição
 1. [x] Maratona Java 20 - Estruturas Condicionais pt 01 - IF
-1. [ ] Maratona Java 21 - Estruturas Condicionais pt 02 - ELSE IF
+1. [x] Maratona Java 21 - Estruturas Condicionais pt 02 - ELSE IF
 1. [ ] Maratona Java 22 - Estruturas Condicionais pt 03 - Operador ternário
 1. [ ] Maratona Java 23 - Estruturas Condicionais pt 04 - Tabela Verdade e exercício
 1. [ ] Maratona Java 24 - Estruturas Condicionais pt 05 - Resolução do exercícios

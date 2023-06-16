@@ -7,6 +7,8 @@ public class Condicional01If {
 
         if (isAutorizadoComprarBebida) {
             System.out.println("Autorizado a comprar bebida alcoólica");
+        } else {
+            System.out.println("Não autorizado a comprar bebida alcoólica");
         }
 
         if (!isAutorizadoComprarBebida) {
