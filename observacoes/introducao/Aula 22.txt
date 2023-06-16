@@ -1,0 +1,25 @@
+Estruturas Condicionais pt 03 - Operador ternário
+
+Nesta aula foi apresentado conceitos importantes sobre o operador condicional ternário (?:) como, por exemplo, a possiblidade de encadear mais de uma condição, embora isso não seja recomendado, é perfeitamente possível.
+
+ESTRUTURA
+
+(condicao) ? verdadeiro : falso
+
+Não faça isso, mas a título de curiosidade, quando houver mais de uma condição, (não) utilize a seguinte estrutura implementada como exemplo no código-fonte:
+
+(condicao) ? verdadeiro1 : (condicao2) ? verdadeiro2 : falso
+
+Considere a implementação no código-fonte:
+
+----------------------------------------------
+Doar se salario > 5000
+salario = 6000
+(salario > 5000) ? "vou doar" : "ainda não dá"
+----------------------------------------------
+
+=====> LINKS ÚTEIS <=====
+
+https://www.w3schools.com/java/java_conditions_shorthand.asp
+
+https://www.javatpoint.com/ternary-operator-in-java
