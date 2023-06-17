@@ -1,0 +1,17 @@
+Estruturas Condicionais pt 05 - Resolução do exercícios
+
+Esta aula foi dedicada a mostrar como o exercício proposto na aula anterior pode ser resolvido com uso das ferramentas apresentadas no tema condicionais.
+
+TABELA DO EXERCÍCIO
+
+--------------------------
+ 0      | 34.712 | 9.70%
+ 34.713 | 68.507 | 37.35%
+ 68.508 |        | 49.50%
+--------------------------
+
+Este exercício é semelhante a outro que fiz enquanto aprendia Python, se quiser conferir dê uma olhada no projeto disponibilizado em "links úteis".
+
+=====> LINKS ÚTEIS <=====
+
+https://github.com/danilotc/calculo-inss

@@ -48,7 +48,7 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 21 - Estruturas Condicionais pt 02 - ELSE IF
 1. [x] Maratona Java 22 - Estruturas Condicionais pt 03 - Operador ternário
 1. [x] Maratona Java 23 - Estruturas Condicionais pt 04 - Tabela Verdade e exercício
-1. [ ] Maratona Java 24 - Estruturas Condicionais pt 05 - Resolução do exercícios
+1. [x] Maratona Java 24 - Estruturas Condicionais pt 05 - Resolução do exercícios
 1. [ ] Maratona Java 25 - Estruturas Condicionais pt 06 - Switch
 1. [ ] Maratona Java 26 - Estruturas Condicionais pt 07 - Switch exercício
 1. [ ] Maratona Java 27 - Estruturas de Repetição pt 01 - Laços de repetição while, do while, for
