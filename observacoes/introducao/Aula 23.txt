@@ -1,0 +1,40 @@
+Estruturas Condicionais pt 04 - Tabela Verdade e exercício
+
+Esta foi uma aula onde a tabela verdade foi ensinada com base nos dois operadores que já utilizamos em aulas anteriores, os operadores relacionais && e ||.
+
+OPEERADOR E (&&)
+
+Quando comparamos valores em que todos precisam ser verdadeiros para realizar uma certa tarefa, o operador relacional && deve ser utilizado, uma vez que o bloco de código só será executado se todas as condições forem verdadeiras, conforme tabela abaixo.
+
+            &&
+--------------------------
+V && V = V
+V && F = F
+F && V = F
+F && F = F
+V && V && V && V && F = F
+--------------------------
+
+OPERADOR OU (||)
+
+Quando comparamos valores onde pelo menos uma condição precisa ser verdadeira para que um determinado bloco de código seja executado, pode-se utilizar o operador relacional ||, conforme tabela abaixo.
+
+           ||
+--------------------------
+V || V = V
+V || F = V
+F || V = V
+F || F = F
+F || F || F || F || V = V
+--------------------------
+
+=====> LINKS ÚTEIS <=====
+
+Tabela com o exercício proposto
+https://expatax.nl/knowledge-base/tax-rates-in-the-netherlands-2020
+
+Ler um pouco mais sobre a tabela verdade
+https://www.todamateria.com.br/tabela-verdade
+
+Só mais um pouco sobre a tabela verdade
+https://pt.wikipedia.org/wiki/Tabela-verdade
