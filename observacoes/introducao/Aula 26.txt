@@ -1,0 +1,11 @@
+Estruturas Condicionais pt 07 - Switch exercício
+
+ENUNCIADO
+
+Dados os valores de 1 a 7, imprima se é dia útil ou final de semana, utilizando switch e considerando 1 como domingo.
+
+=====> LINKS ÚTEIS <=====
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html
+
+https://www.w3schools.com/java/java_switch.asp
