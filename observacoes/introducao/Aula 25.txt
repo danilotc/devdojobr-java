@@ -1,0 +1,47 @@
+Estruturas Condicionais pt 06 - Switch
+
+Nesta aula foi mostrado como funciona a estrutura condicional Switch para executar determinado bloco de código do valor de uma variável. Foi falado também sobre uma peculiaridade que dificilmente falam por aí e que só descobri na faculdade e achei estranho, para ser sincero.
+
+IF vs SWITCH
+
+Assim como a condicional IF tem a opção de não usar o par de chaves quando o mesmo possui apenas uma única instrução, o switch também não precisa usar.
+
+Entretanto, no IF isso se torna opcional somente se houver uma única instrução, já no switch a quantidade de instruções em cada caso não importa.
+
+Observe nos links úteis e em outras fontes que ensinam essa estrutura condicional que não é usado chaves em cada bloco, nem mesmo nos tutoriais oficiais da Oracle você verá o uso de chaves, mas é importante saber que existe e a estrutura aceita. Por isso, no código-fonte, no exemplo da semana eu não uso chaves em cada bloco; já no exemplo do sexo sim.
+
+if (condicao)
+    única instrução
+
+EXEMPLO 1 - SWITCH SEM {} NO CASE
+switch (variavel) {
+    case <valor>:
+        instrucao 1;
+        instrucao 2
+        instrucao n;
+}
+
+EXEMPLO 2 - SWITCH USANDO {} NO CASE
+switch (variavel) {
+    case <valor>: {
+        instrucao 1;
+        instrucao 2
+        instrucao n;
+    }
+}
+
+TIPOS DE DADOS ACEITOS
+
+Há algumas mudanças nas versões LTS depois do Java 8, mas inicialmente os tipos de dados avaliados pelo siwtch são:
+
+char, int, byte, short, enum, String
+
+ENUNCIADO APRESENTADO NO CÓDIGO
+
+"Imprima o dia da semana considerando 1 como domingo"
+
+=====> LINKS ÚTEIS <=====
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html
+
+https://www.w3schools.com/java/java_switch.asp
