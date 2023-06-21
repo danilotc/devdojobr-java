@@ -53,7 +53,7 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 26 - Estruturas Condicionais pt 07 - Switch exercício
 1. [x] Maratona Java 27 - Estruturas de Repetição pt 01 - Laços de repetição while, do while, for
 1. [x] Maratona Java 28 - Estruturas de Repetição pt 02 - Exercício for
-1. [ ] Maratona Java 29 - Estruturas de Repetição pt 03 - Break
+1. [x] Maratona Java 29 - Estruturas de Repetição pt 03 - Break
 1. [ ] Maratona Java 30 - Estruturas de Repetição pt 04 - Exercício Break
 1. [ ] Maratona Java 31 - Estruturas de Repetição pt 05 - Continue
 1. [ ] Maratona Java 32 - Arrays pt 01

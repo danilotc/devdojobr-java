@@ -1,0 +1,20 @@
+Estruturas de Repetição pt 03 - Break
+
+Nesta aula foi falado sobre a instrução break. Para usá-la existe algumas restrições de uso para essa instrução, por exemplo:
+
+1. precisa estar dentro do switch ou estrutura de repetição
+2. ela serve para interromper uma repetição, saindo do laço ou do fluxo switch
+
+
+ENUNCIADO
+
+"Imprima os primeiros 25 números de um dado valor. Por exemplo, 50"
+
+
+=====> LINKS ÚTEIS <=====
+
+Oracle - Break
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/branch.html
+
+W3Scools - Break
+https://www.w3schools.com/java/java_break.asp
