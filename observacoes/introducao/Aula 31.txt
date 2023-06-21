@@ -1,0 +1,11 @@
+Estruturas de Repetição pt 05 - Continue
+
+Considerando o exemplo no código-fonte, o trabalho mais "pesado" é feito na instrução println que envolve entrada e saída de dados, por isso, a intrução 'continue', usada desta forma, é melhor, pois uma operação aritmética é mais simples de ser feita do que utilizar recursos de entrada e saída, feita pela instrução println.
+
+=====> LINKS ÚTEIS <=====
+
+Oracle - Continue
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/branch.html
+
+W3Schools - Continue
+https://www.w3schools.com/java/java_break.asp
