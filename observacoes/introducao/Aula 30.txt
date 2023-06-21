@@ -1,0 +1,8 @@
+Estruturas de Repetição pt 04 - Exercício Break
+
+Nesta aula foi proposto um exercício para treinar o uso da instrução break.
+
+ENUNCIADO
+
+"Dado o valor de um carro, descubra em quantas vezes ele pode ser parcelado"
+"Condição: valorParcela >= 1000"
