@@ -1,0 +1,7 @@
+Estruturas de Repetição pt 02 - Exercício for
+
+Nesta aula foi proposto um exercício utilizando a estrutura de repetição for, mas eu apliquei o mesmo exercício nas outras estruturas "while" e "do-while" para ver como a mesma solução se aplica nas diferentes estruturas.
+
+ENUNCIADO
+
+"Imprima todos os valores pares de 0 até 1000000"
