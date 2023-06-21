@@ -1,0 +1,85 @@
+Estruturas de Repetição pt 01 - Laços de repetição while, do while, for
+
+Nesta aula foi apresentado as três estruturas básicas para iterar elementos de forma repetitiva, essas estruturas são o While, Do While e For.
+
+
+=====> ESTRUTURA while
+
+while (condicao) {
+    // instrução a ser executada;
+    // modificador da condição;
+}
+
+Exemplo:
+
+int count = 0;
+while (count < 10) {
+    System.out.println(count); // instrução de impressão
+    count = count + 1;         // modificador da condição
+}
+
+Lembrando que no modificador podemos usar as três formas estudadas em aulas anteriores, por exemplo, todas as opções a seguir incrementam o valor de count em 1 unidade. Caso queira incrementar um valor maior que 1, a opção "count++" não é uma boa opção porque o valor incrementado pelo operador "++" é sempre 1 unidade:
+
+- count = count + 1
+- count += 1
+- count++
+
+DICA: para imprimir o valor de 1 até 10 pulando sempre 1 unidade em apenas quatro linhas, podemos usar a seguinte istrução no comando de saída:
+
+int count = 0;
+while (count < 10) {
+    System.out.print(++count);
+}
+// saída: 12345678910
+
+
+=====> ESTRUTURA do-while
+
+Essa estrutura é bem parecida com a estrutura While, a diferença é que ela executa o bloco de código inteiro pelo menos uma vez antes de testar a condição de parada, independente do valor ser verdadeiro ou falso, o bloco será executado pelo menos uma vez.
+
+Exemplo:
+
+do {
+    // instrução a ser executada;
+    // modificador da condição de parada;
+} while (condição);
+
+
+=====> ESTRUTURA for
+
+Essa estrutura é um pouco mais "complexa", porém é mais completa do que as outras estruturas anteriores, pois nas ateriores é fácil esquecer partes importantes que evitam repetição infinita, quanto esta não permite por tais partes fazerem parte da estrutura.
+
+Exemplo:
+
+Dentro dos parênteses há três divisões:
+
+1. inicialização, uma variável contadora, normalmente chamada de "i".
+2. condição, usando sempre operadores relacionais com resultado booleano.
+3. incrementador, irá incrementar o valor do contador até a condição ser falsa.
+
+Ou seja, enquanto a condição for verdadeira, o bloco de código irá ser executado.
+
+for (int i=0; i<10; i++) {
+    // instrução a ser executada;
+}
+
+Observações:
+
+1. o contador "i" precisa estar inicializado, pois é uma variável local.
+2. o bloco de repetição não será executado apenas quando a condição for falsa.
+3. no lugar do "i++" pode-se usar as outrar formas de incremento, como "i = i + 2".
+
+
+=====> LINKS ÚTEIS <=====
+
+Oracle - While e Do-While
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
+
+Oracle - For
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html
+
+W3Schools - While e Do-While
+https://www.w3schools.com/java/java_while_loop.asp
+
+W3Schools - For
+https://www.w3schools.com/java/java_for_loop.asp
