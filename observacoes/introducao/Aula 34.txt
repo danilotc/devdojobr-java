@@ -1,0 +1,15 @@
+Arrays pt 03
+
+Basicamente esta aula foi para mostrar como funciona a referência de objetos, citando também que um recurso chamado Garbage Collector apaga um objeto da memória quando nenhuma referência aponta para ele, como no exemplo ilustrado no PDF.
+
+Este desenho foi feito seguindo a recomendação do professo dizendo o seguinte: "é difícil, mas tente desenhar que o conceito fica mais simples de entender".
+
+=====> LINKS ÚTEIS <=====
+
+É difícil encontrar algum material mostrando esta representação em memória, portanto fique com a explicação da própria Oracle sobre o Garbage Collector e o exemplo ilustrado no pdf incluso na pasta "observacoes->pdfs".
+
+Explicação da Oracle sobre Garbage Collector
+https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html
+
+Ilustração criada por mim :)
+entendendo-arrays-aula34-video03.pdf
