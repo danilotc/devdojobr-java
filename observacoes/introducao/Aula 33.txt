@@ -1,0 +1,36 @@
+Arrays pt 02
+
+Esta aula foi gravada para falar um pouco sobre os valores iniciados por padrão em cada uma das variáveis como exemplificado na tabela a seguir.
+
+Obs.: valor padrão é quando se cria uma variável e não a inicializa.
+
+EXEMPLO:
+
+// array de nomes com 3 posições armazenando valor padrão 'null', isso porque é um objeto.
+String[] nomes = new String[3];
+
+// array de nomes com 3 posições armazenando valores específicos.
+String[] nomes = new String[3];
+nomes[0] = "Danilo";
+nomes[1] = "José";
+nomes[2] = "Ana";
+
+VALORES PADRÃO PARA ARRAYS DO TIPO OBJETO E PRIMITIVO:
+
+----------------------------
+Variável   |   Valor padrão
+----------------------------
+String     |   null
+int        |   0
+short      |   0
+byte       |   0
+long       |   0L
+double     |   0.0d
+float      |   0.0f
+char       |   '\u0000'
+----------------------------
+
+=====> LINKS ÚTEIS <=====
+
+https://www.tutorialspoint.com/what-are-the-default-array-values-in-java
+https://www.w3schools.com/java/java_arrays.asp
