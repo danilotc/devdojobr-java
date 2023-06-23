@@ -1,0 +1,25 @@
+Arrays pt 04
+
+Nesta aula foi apresentado algumas formas diferentes de inicializar um array, como nos exemplos abaixo e os códigos-fonte separados por arquivos.
+
+EXEMPLOS DE INICIALIZAÇÃO:
+
+Forma 1
+int[] numeros = {1, 2, 3, 4, 5};
+
+Forma 2
+int[] numeros = new int[]{5, 4, 3, 2, 1};
+
+
+EXEMPLO DE USO DO FOR SIMPLIFICADO (FOREACH)
+
+for (int numero : numeros) {
+    System.out.println(numero);
+}
+
+
+=====> LINKS ÚTEIS <=====
+
+https://www.baeldung.com/java-initialize-array
+https://www.javatpoint.com/java-initialize-array
+https://www.w3schools.com/java/java_arrays.asp
