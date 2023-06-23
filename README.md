@@ -56,7 +56,7 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 29 - Estruturas de Repetição pt 03 - Break
 1. [x] Maratona Java 30 - Estruturas de Repetição pt 04 - Exercício Break
 1. [x] Maratona Java 31 - Estruturas de Repetição pt 05 - Continue
-1. [ ] Maratona Java 32 - Arrays pt 01
+1. [x] Maratona Java 32 - Arrays pt 01
 1. [ ] Maratona Java 33 - Arrays pt 02
 1. [ ] Maratona Java 34 - Arrays pt 03
 1. [ ] Maratona Java 35 - Arrays pt 04 - Foreach

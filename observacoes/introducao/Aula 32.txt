@@ -1,0 +1,24 @@
+Arrays pt 01
+
+Um array é um tipo de variável que armazena valores por referência, ou seja, os valores são objetos e a variável faz referência aos objetos que nela estão armazenados. Essa referência é feita em espaços na memória do computador.
+
+Os valores podem ser acessados através da posição que cada um está, posições conhecidas como índices. Esses índices, no Java, sempre começam com 0 (zero).
+
+EXEMPLO
+
+array  -->  [23, 12, 41, 15]
+             |   |    |   |
+índice -->   0   1    2   3
+
+23 - está na posição 0
+12 - está na posição 1
+41 - está na posição 2
+15 - está na posição 3
+
+Ou seja, este array tem 4 posições, embora o último estejá no índice 3, isso pode confundir.
+
+=====> LINKS ÚTEIS <=====
+
+https://www.w3schools.com/java/java_arrays.asp
+https://www.geeksforgeeks.org/arrays-in-java
+https://www.javatpoint.com/array-in-java
