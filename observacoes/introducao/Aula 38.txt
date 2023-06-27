@@ -1,0 +1,37 @@
+Arrays Multidimensionais pt 02 - Foreach
+
+Nesta aula utilizamos novamente a estrutura de repetição for-each, o for simplificado apresentado em aulas anteriores quando iteramos sobre array simples.
+
+Observações importantes:
+
+Na definição do array não é necessário definir o tamanho no segundo par de colchetes, isso porque poderemos inicializar com diferentes tamanhos, exemplo:
+
+int[][] arrayMultidimensional = new int[3][];
+
+Assim podemos inicializar a primeira linha com um tamanho; a segunda com outro; e a terceira com outro número de coluna, como neste exemplo:
+
+arrayMultidimensional[0] = new int[2];
+arrayMultidimensional[1] = new int[3];
+arrayMultidimensional[2] = new int[6];
+
+Dessa forma, teremos um array de 3x3, ou seja, 3 linhas por 3 colunas onde a coluna tem diferentes tamanhos, isto é, diferentes quantidades de elementos.
+
+---------------
+| 0 0         | -> arrayMultidimensional[0] pode armazenar 2 números
+| 0 0 0       | -> arrayMultidimensional[1] pode armazenar 3 números
+| 0 0 0 0 0 0 | -> arrayMultidimensional[2] pode armazenar 6 números
+---------------
+
+ESTRUTURA DO FOR-EACH PARA ITERAR EM ARRAYS MULTIDIMENSIONAIS
+
+for(int[] arrayBase : arrayMultidimensional) {
+    for(int numero : arrayBase) {
+        System.out.print(numero)
+    }
+}
+
+=====> LINKS ÚTEIS <=====
+
+https://www.w3schools.com/java/java_foreach_loop.asp
+https://www.geeksforgeeks.org/for-each-loop-in-java
+https://www.javatpoint.com/for-each-loop
