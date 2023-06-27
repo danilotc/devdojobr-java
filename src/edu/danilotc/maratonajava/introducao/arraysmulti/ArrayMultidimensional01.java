@@ -28,5 +28,11 @@ public class ArrayMultidimensional01 {
             }
             System.out.println("---");
         }
+
+        for (int[] arrayBase : dias) {
+            for (int numero : arrayBase) {
+                System.out.println(numero);
+            }
+        }
     }
 }

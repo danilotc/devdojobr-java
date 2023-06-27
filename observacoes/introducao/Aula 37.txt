@@ -1,0 +1,5 @@
+Arrays Multidimensionais pt 02 - Foreach
+
+Nesta aula iteramos sobre o array multidimensional usando for-each. Este iterador é mais simples do que o iterador for tradicional utilizado na aula anterior. Muitos dos seus comandos são implicitos e não é possível manipular os índices de cada posição.
+
+Se a tarefa necessida da utilização do índice, a melhor opção é o for tradiciconal.
