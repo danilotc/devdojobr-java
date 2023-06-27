@@ -60,7 +60,7 @@ A. Os assuntos são esses aqui:
 1. [X] Maratona Java 33 - Arrays pt 02
 1. [x] Maratona Java 34 - Arrays pt 03
 1. [x] Maratona Java 35 - Arrays pt 04 - Foreach
-1. [ ] Maratona Java 36 - Arrays Multidimensionais pt 01
+1. [x] Maratona Java 36 - Arrays Multidimensionais pt 01
 1. [ ] Maratona Java 37 - Arrays Multidimensionais pt 02 - Foreach
 1. [ ] Maratona Java 38 - Arrays Multidimensionais pt 03 - Inicialização
 1. [ ] Maratona Java 39 - Orientação Objetos pt 01 - Introdução classes pt 01

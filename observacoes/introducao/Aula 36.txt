@@ -1,0 +1,11 @@
+Arrays Multidimensionais pt 01
+
+Nesta aula foi apresentado o array multidimencional, como definir, inicializar e acessar. Além de mostrar como acessar os elementos a partir de estruturas de repetição aninhadas (for).
+
+A represntação visual do código-fonte pode ser conferida no arquivo entendendo-arrays-multi-aula36-video01 em observacoes->pdfs.
+
+=====> LINKS ÚTEIS <=====
+
+https://www.w3schools.com/java/java_arrays_multi.asp
+https://www.javaprogressivo.net/2012/09/array-multidimensional-ou-matriz-array_6673.html
+https://www.javatpoint.com/array-in-java
