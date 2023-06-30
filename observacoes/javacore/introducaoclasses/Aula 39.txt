@@ -1,0 +1,9 @@
+Orientação Objetos - Introdução classes pt 01
+
+Nesta aula foi falado sobre Orientação a Objetos e como a utilização deste paradigma se comporta na memória do computador. Para entender melhor este conceito fiz uma ilustração em formato PDF para melhor compreensão dos conceitos abordados nesta aula, veja em observacoes->pdfs.
+
+=====> Links Úteis <=====
+
+https://docs.oracle.com/javase/tutorial/java/javaOO/index.html
+https://www.w3schools.com/java/java_oop.asp
+https://www.javatpoint.com/java-oops-concepts
