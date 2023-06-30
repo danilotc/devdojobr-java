@@ -1,0 +1,11 @@
+Orientação Objetos - Introdução classes pt 02
+
+Nesta aula foi mostrado como podemos inicializar um atributo com valores padrão, isso não é recomendado porque todos os objetos criados com a classe Estudante terão este nome por padrão e não é assim que funciona. Cada objeto representa um estudante diferente, com valores de atributos diferentes.
+
+Etretanto, isso foi feito apenas para mostrar que é possível, mas não é recomendado.
+
+=====> Links Úteis <=====
+
+https://docs.oracle.com/javase/tutorial/java/javaOO/index.html
+https://www.w3schools.com/java/java_classes.asp
+https://www.javatpoint.com/java-oops-concepts
