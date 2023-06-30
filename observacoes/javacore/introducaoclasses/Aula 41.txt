@@ -1,0 +1,15 @@
+Orientação Objetos - Coesão
+
+Esta aula foi específica para falar sobre coesão, um conceito importante na hora de aprender orientação a objetos. É algo relacionado ao propósito das classes, ou seja, uma classe altamente coesa significa que não misturam propósitos pelo qual existem, ou seja, cada classe tem um propósito único.
+
+Tendo uma classe Estudante com atributos:
+- nome
+- idade
+- sexo
+
+É importante criar outra classe Professor com os mesmos atributos:
+- nome
+- idade
+- sexo
+
+Assim, tudo que for modificado numa classe diz respeito somente aquela classe, não mistura o propósito de cada uma, facilitando até manutenções futuras.

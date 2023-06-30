@@ -65,7 +65,7 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 38 - Arrays Multidimensionais pt 03 - Inicialização
 1. [x] Maratona Java 39 - Orientação Objetos - Introdução classes pt 01
 1. [x] Maratona Java 40 - Orientação Objetos - Introdução classes pt 02
-1. [ ] Maratona Java 41 - Orientação Objetos - Introdução classes pt 03
+1. [x] Maratona Java 41 - Orientação Objetos - Coesão
 1. [ ] Maratona Java 42 - Orientação Objetos - Exercício Classes
 1. [ ] Maratona Java 43 - Orientação Objetos - Referência de objetos
 1. [ ] Maratona Java 44 - Orientação Objetos - Métodos pt 01
