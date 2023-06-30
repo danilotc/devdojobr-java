@@ -17,6 +17,8 @@ public class CarroTeste {
         carro2.modelo = "TG 500";
         carro2.ano = 1968;
 
+        carro1 = carro2;
+
         // Acessa valores dos atributos
         System.out.println("Carro 1");
         System.out.println(carro1.nome);
