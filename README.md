@@ -66,7 +66,7 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 39 - Orientação Objetos - Introdução classes pt 01
 1. [x] Maratona Java 40 - Orientação Objetos - Introdução classes pt 02
 1. [x] Maratona Java 41 - Orientação Objetos - Coesão
-1. [ ] Maratona Java 42 - Orientação Objetos - Exercício Classes
+1. [x] Maratona Java 42 - Orientação Objetos - Exercício Classes
 1. [ ] Maratona Java 43 - Orientação Objetos - Referência de objetos
 1. [ ] Maratona Java 44 - Orientação Objetos - Métodos pt 01
 1. [ ] Maratona Java 45 - Orientação Objetos - Métodos pt 02 - Parâmetros
