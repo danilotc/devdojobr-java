@@ -1,0 +1,30 @@
+Orientação Objetos - Métodos pt 03 - Retorno pt 01
+
+Nesta aula não foi falado sobre as diferentes formas de tratar um problema de lógica apenas usando o fluxo if, mas vou deixar as diferentes formas mostradas na próxima aula, as diferentes formas são:
+
+OUTRAS FORMAS DE ESCREVER A MESMA LÓGICA
+
+Usando if
+
+if (numero2 == 0) {
+    return 0;
+}
+return numero1 / numero2;
+
+
+Usando if-else
+
+if (numero2 == 0) {
+    return 0;
+} else {
+    return numero1 / numero2;
+}
+
+
+Usando if-else testando primeiro a lógica que permite o cálculo
+
+if (numero2 != 0) {
+    return numero1 / numero2;
+} else {
+    return 0;
+}
