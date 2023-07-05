@@ -1,0 +1,3 @@
+Orientação Objetos - Métodos pt 07 - Parâmetros tipo referência pt 02
+
+A boa prática apresentada nesta aula é "nunca alterar o estado do objeto". O perigo de trabalhar com variáveis de referência é não seguir a boa prática e alterar o estado do objeto dentro do método quando escrever a lógica de negócio.
