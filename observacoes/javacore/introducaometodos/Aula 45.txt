@@ -1,0 +1,14 @@
+Orientação Objetos - Métodos pt 02 - Parâmetros
+
+Tecnicamente se um método tem mais de 3 parâmetros significa que a lógica dele poderia ser dividida em outras partes menores.
+
+ESTRUTURA
+
+modificador retorno nomeDoMetodo(tipo par1, tipo par2) {
+    corpo do método
+}
+
+=====> Links Úteis <=====
+
+https://www.w3schools.com/java/java_methods_param.asp
+https://docs.oracle.com/javase/tutorial/java/javaOO/arguments.html
