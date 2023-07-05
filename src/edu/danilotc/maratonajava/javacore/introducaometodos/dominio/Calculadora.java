@@ -19,4 +19,13 @@ public class Calculadora {
         }
         return numero1 / numero2;
     }
+
+    public void imprimirDivisaoDeDoisNumeros(double numero1, double numero2) {
+        // Só pode utilizar 'return' desta forma quando o método for void
+        if (numero2 == 0) {
+            System.out.println("Não existe divisão por zero");
+            return;
+        }
+        System.out.println(numero1/numero2);
+    }
 }

@@ -1,0 +1,15 @@
+Orientação Objetos - Métodos pt 04 - Retorno pt 02
+
+Nesta aula foi mostrado algumas formas diferentes de escrever a mesma lógica.
+
+OUTRA FORMA DE ESCREVER
+
+public void meuMetodo(double numero1, double numero2) {
+    if (numero2 == 0) {
+        "Não existe divisão por zero"
+    } else {
+        numero1 / numero2
+    }
+}
+
+Entretanto, a lógica implementada no código-fonte é um pouco mais limpa e funciona da mesma forma, além de estar verificando o erro antes de executar a lógica de negócio.
