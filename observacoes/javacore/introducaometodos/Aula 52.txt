@@ -1,0 +1,44 @@
+Orientação Objetos - Métodos pt 09 - Varargs
+
+Se precisar passar arrays via parâmetros usar esta funcionalidade pode ser bastante útil. A sintaxe do Varargs muda um pouco em relação à sintaxe da forma convencional, mas isso é para facilitar e deixar o código mais bonito e fácil de usar.
+
+EXEMPLOS
+
+Passando array como parâmetro da forma convencional
+
+meuMetodo(int[] numeros) {
+    // lógica
+}
+
+int[] numeros = {1, 2, 3};
+meuMetodo(numeros);
+
+
+Passando array como parâmetro com varargs
+
+meuMetodo(int... numeros) {
+    // logica
+}
+
+int[] numeros = {1, 2, 3};
+meuMetodo(numeros);
+
+Ou simplesmente
+meuMetodo(1, 2, 3);
+
+
+Também podemos definir parâmetros antes do varargs, mas tem que ser antes dele.
+
+meuMetodo(double valor, int... numeros) {
+    // logica
+}
+
+Neste caso o primeiro argumento (7) será atribuído ao double, os demais serão arrays
+meuMetodo(7, 2, 3, 4, 5);
+
+
+=====> Links Úteis <=====
+
+https://docs.oracle.com/javase/8/docs/technotes/guides/language/varargs.html
+https://www.baeldung.com/java-varargs
+https://www.javatpoint.com/varargs
