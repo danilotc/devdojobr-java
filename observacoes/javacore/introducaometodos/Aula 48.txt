@@ -1,0 +1,7 @@
+Orientação Objetos - Métodos pt 05 - Parâmetros tipo primitivo
+
+Esta aula foi importante porque foi dito que os parâmetros com variáveis do tipo primitivo são passados como uma cópia, assim quando o valor do argumento é alterado o valor origial não será alterado porque alteramos uma cópia.
+
+Consultar as minhas anotações em observacoes->pdfs
+
+entendendo-poo-aula48-video05-parametro-tipo-primitivo.pdf
