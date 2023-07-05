@@ -1,0 +1,5 @@
+Orientação Objetos - Métodos pt 08 - Referência this
+
+Esta forma de usar o método imprimir deixa o código com baixa coesão, não está errado, mas faz com que a classe perca o propósito único de existir, ou seja, além de mapear estudante real para mundo virtual, precisa imprimir também.
+
+Contudo, neste exemplo é sempre o objeto que irá executar o método.
