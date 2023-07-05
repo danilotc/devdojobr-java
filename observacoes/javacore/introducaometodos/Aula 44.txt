@@ -1,0 +1,15 @@
+Orientação Objetos - Métodos pt 01
+
+Aqui foi apresentado conceitos básicos sobre métodos que não retornam nada, para isso foi usado a palavra-chave 'void'. Os métodos são executados dentro da classe, nós utilizamos através de uma instância, mas eles sempre serão executados dentro da classe.
+
+ESTRUTURA
+
+modificador retorno nomeDoMetodo() {
+    corpo do método
+}
+
+=====> Links Úteis <=====
+
+https://www.javatpoint.com/method-in-java
+https://www.w3schools.com/java/java_methods.asp
+https://docs.oracle.com/javase/tutorial/java/javaOO/methods.html
