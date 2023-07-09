@@ -1,0 +1,15 @@
+Orientação Objetos - Modificador de acesso private, get e set pt 03
+
+Nesta aula vimos a importância de proteger os atributos usando o modificador de acesso 'private' e os métodos acessores get e set corretamente.
+
+Neste exemplo modificamos o último exercício sobre funcionários, protegemos os atributos da classe de domínio, além da forma como inicializar os atributos na classe FuncionarioTeste.
+
+Além disso, não implementamos o método acessor 'setMedia' porque a média será calculada e armazenada de forma interna pelos próprios membros da classe.
+
+A única forma de visualizar o valor da média é através do método 'imprimirMediaSalarial()' que calcula e exibe o resultado ou 'imprimir()' que chama o método responsável pelo cálculo.
+
+=====>Links Úteis<=====
+
+https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
+https://www.w3schools.com/java/java_modifiers.asp
+https://www.javatpoint.com/access-modifiers
