@@ -1,0 +1,17 @@
+Orientação Objetos - Modificador de acesso private, get e set pt 02
+
+A palavra-chave 'this' é idepotente e não altera o valor do atributo, assim exatamente o que está em memória será retornado.
+
+Na baixa coesão da classe Pessoa que usa o método imprimir e nela foi utilizado o método acessor get para retornar o valor do atributo. Isso é ensiado em alguns cursos, mas parece não ser recomendado.
+
+É preferível usar 'this' porque ele é idepotente, isso significa que o valor que será retornado não será alterado, além disso, ele faz referência aos atributos e métodos da própria classe.
+
+Exemplo:
+System.out.println(getNome());  //nao recomendado, esteticamente feio
+System.out.println(getIdade()); //usar preferencialmente this.idade
+
+=====>Links Úteis<=====
+
+https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
+https://www.w3schools.com/java/java_modifiers.asp
+https://www.javatpoint.com/access-modifiers
