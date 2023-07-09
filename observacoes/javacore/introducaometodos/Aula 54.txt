@@ -1,0 +1,33 @@
+Orientação Objetos - Modificador de acesso private, get e set pt 01
+
+Usando modificador 'public' outras classes podem acessar os atributos e métodos da classe Pessoa de forma livre porque são públicos, isso não pode acontecer.
+
+Acomplamento tem relação com o quando uma classe sabe da outra, por exemplo, outra classe não pode saber que a classe Pessoa tem o método setNome, como fazer isso?
+
+Para baixar o acomplamento podemos usar o modificador de acesso privado (private), isso impede que otras classes vejam quais atributos e métodos existem na classe Pessoa. Dessa forma baixamos o acoplamento do código.
+
+LEMBRE-SE
+
+Alto acoplamento É RUIM
+Baixo acoplamento É BOM
+
+Alta coesão É BOM
+Baixa coesão É RUIM
+
+Além disso, ao adicionar get e set na classe Pessoa adicionamos uma camada que protege o acesso aos atributos e métodos, isso em conjunto com o modificador de acesso 'private', por exemplo:
+
+Com este exemplo outras classes tem acesso ao atributo 'nome' e podem modificar o valor dele diretamente, isso é alto acoplamento.
+
+define: public String nome;
+altera: objeto.nome = "Fulano" // errado
+
+Já com este exemplo outras classes só tem acesso ao atributo 'nome' através do método acessor (get/set), isso é baixo acoplamento. Além disso, apenas os membros da própria classe podem acessar os atributos e métodos marcados como privados.
+
+define: private String nome;
+altera: objeto.setNome("Fulano") // correto
+
+=====>Links Úteis<=====
+
+https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
+https://www.w3schools.com/java/java_modifiers.asp
+https://www.javatpoint.com/access-modifiers
