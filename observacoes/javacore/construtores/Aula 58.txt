@@ -1,0 +1,26 @@
+Orientação Objetos - Construtores pt 01
+
+Uma observação importante é sobre a sintaxe 'this()' utilizada para chamar um construtor dentro do escopo de uma sobrecarga. Essa sintaxe do this só pode ser utiliazada dentro de construtores e deve, obrigatoriamente, ser a primeira linha executável do seu escopo.
+
+Exemplo:
+
+MinhaClasse {
+    atributo1;
+    atributo2;
+
+    MinhaClasse() {
+    }
+
+    MinhaClasse(atributo1, atributo2) {
+        this();
+        this.atributo1 = atributo1;
+        this.atributo2 = atributo2;
+    }
+}
+
+Neste exemplo a sobrecarga do construtor utiliza a sintaxe this() sem argumento. Assim, essa sobrecarga chama o construtor padrão (sem parâmetros) antes de executar as próximas linhas do seu escopo.
+
+=====> Links Úteis <=====
+
+https://www.w3schools.com/java/java_constructors.asp
+https://www.javatpoint.com/java-constructor
