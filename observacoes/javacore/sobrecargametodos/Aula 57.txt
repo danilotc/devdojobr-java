@@ -1,0 +1,25 @@
+Orientação Objetos - Sobrecarga de métodos
+
+Os métodos acessores (get e set) sempre ficam no final do código, essa era uma dúvida sanada durante a aula.
+
+Nesta aula também foi sanada outra dúvida sobre usar os métodos para setar os valores dos atributos dentro do construtor, para isso é melhor usar o this, já que ele se refere aos membros da própria classe, sejam atributos ou métodos.
+
+Este foi o exemeplo usado com um detelhe que eu só tinha visto com super...
+
+public void init(String nome, String tipo, int episodio){
+    this.nome = nome;
+    this.tipo = tipo;
+    this.episodio = episodio;
+}
+
+public void init(String nome, String tipo, int episodio, String genero){
+    this.init(nome, tipo, episodio);
+    this.genero = genero;
+}
+
+Se eu tiver mais métodos, um método sempre chamará outro para inicializar os atributos? Sim, cada construtor irá inicializar os atributos que faltam, ou seja, os atributos informados no parâmetro como no segundo exemplo acima 'this.init(par1, par2, par3)'. Isso evita repetição de código dentro dos métodos sobrecarregados.
+
+=====> Links Úteis <=====
+
+https://www.w3schools.com/java/java_methods_overloading.asp
+https://www.javatpoint.com/method-overloading-in-java

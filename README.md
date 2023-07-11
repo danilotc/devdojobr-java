@@ -81,7 +81,7 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 54 - Orientação Objetos - Modificador de acesso private, get e set pt 01
 1. [x] Maratona Java 55 - Orientação Objetos - Modificador de acesso private, get e set pt 02
 1. [x] Maratona Java 56 - Orientação Objetos - Modificador de acesso private, get e set pt 03
-1. [ ] Maratona Java 57 - Orientação Objetos - Sobrecarga de métodos
+1. [x] Maratona Java 57 - Orientação Objetos - Sobrecarga de métodos
 1. [ ] Maratona Java 58 - Orientação Objetos - Construtores pt 01
 1. [ ] Maratona Java 59 - Orientação Objetos - Construtores pt 02 - Sobrecarga
 1. [ ] Maratona Java 60 - Orientação Objetos - Blocos de inicialização
