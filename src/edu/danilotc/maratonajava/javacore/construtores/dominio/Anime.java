@@ -5,6 +5,7 @@ public class Anime {
     private String tipo;
     private int episodios;
     private String genero;
+    private String estudio;
 
     /**
      * Este é o construtor padrão, devo colocar ele aqui somente se o
@@ -27,11 +28,25 @@ public class Anime {
         this.genero = genero;
     }
 
+    /**
+     * Este construtor instancia um objeto com todos os valores para seus atributos
+     * usando a sintaxe this(par1, par2, par3, par4) para inicializar os quatro
+     * primeiros atributos da classe a partir de outra sobrecarga.
+     * <p>
+     * A quantidade de parâmetros dentro do this() indica exatamente qual construtor
+     * deverá ser chamado e o compilador chamará a sobrecarga correta.
+     */
+    public Anime(String nome, String tipo, int episodios, String genero, String estudio) {
+        this(nome, tipo, episodios, genero);
+        this.estudio = estudio;
+    }
+
     public void imprimir() {
         System.out.println(this.nome);
         System.out.println(this.tipo);
         System.out.println(this.episodios);
         System.out.println(this.genero);
+        System.out.println(this.estudio);
     }
 
     public String getNome() {
@@ -64,5 +79,13 @@ public class Anime {
 
     public void setGenero(String genero) {
         this.genero = genero;
+    }
+
+    public String getEstudio() {
+        return estudio;
+    }
+
+    public void setEstudio(String estudio) {
+        this.estudio = estudio;
     }
 }
