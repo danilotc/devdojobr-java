@@ -1,0 +1,14 @@
+Orientação Objetos - Modificador static
+
+O modificador estático faz o atributo pertencer à classe e não mais a uma instância, dessa forma todos os objetos vão compartilhar do mesmo valor. Se o valor de um atributo for mudado através de uma instância, esse valor será refletido em todas as instâncias de Carro.
+
+É por isso que normalmente um atributo definido como estático é inicializado com algum valor na classe de domínio, como se pode analisar no exemplo dado pela própria Oracle no tutorial.
+
+Observação:
+Como se pode ver na linha 16 da classe de domínio Carro agora não se usa mais a palavra-chave "this" para acessar um atributo definido como estático, isso porque atributos estáticos devem ser referenciados a partir da própria classe, como no exemplo implementado.
+
+=====> Links Úteis <=====
+
+https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html
+https://www.w3schools.com/java/java_modifiers.asp
+https://www.javatpoint.com/static-keyword-in-java
