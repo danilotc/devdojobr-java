@@ -1,0 +1,25 @@
+Orientação Objetos - Blocos de inicialização
+
+Bloco de inicialização é declarado dentro da classe de domínio e possui a seguinte sintaxe:
+
+{
+    codigo;
+}
+
+É executado antes do construtor.
+
+É um bloco não estático porque é um bloco de instância, isso significa que só é executado quando a instância de um objeto é criada, como no exemplo implementado na classe Anime.
+
+Resumindo, o que está acontecendo na classe Anime é:
+
+1 - É alocado espaço em memória para o objeto;
+2 - Cada atributo de classe é criado e inicializado com valores default ou valor passado;
+3 - O bloco de inicialização é executado;
+4 - O construtor é executado.
+
+Exemplo de agilidade:
+anime.getEpisodios() seguido de Alt+Enter agiliza o processo de criação de alguns algoritmos.
+
+No exemplo implementado há dois construtores, um sem parâmetro e outro com parâmetro nome. Ao utilizar o construtor vazio os episódios serão mostrados duas vezes, agora se o construtor com parâmetro for utilizado para criar a instância os episódios serão apresentados apenas uma vez.
+
+Isso acontece porque o construtor também está mostrando os mesmos resultados que no método main está sendo implementado no loop forEach.
