@@ -1,0 +1,41 @@
+Orientação Objetos - Métodos estáticos
+
+Teoricamente agora podemos entender perfeitamente o que realmente significa cada parte do método main, analisando sabemos que:
+
+- é um método público, pode ser acessado de qualquer lugar no projeto;
+- é um método estático, pertence à classe e não a uma instância;
+- é um método que não retorna nenhum valor (void) e;
+- é um método que recebe um array de "string" como parâmetro.
+
+public class CarroTeste {
+    public static void main(String[] args) {
+        //implementação
+    }
+}
+
+Além disso, entendemos também que, se algum atributo não estático for criado dentro da classe e tentarmos usá-lo dentro do método main, não será possível. Um erro de compilação parecerá dizendo que não é possível utilizar variável não estática dentro de método estático.
+
+public class CarroTeste {
+    int numero = 5;
+    public static void main(String[] args) {
+        System.out.println(numero); // erro
+    }
+}
+
+Mas se mudarmos o atributo para estático, adicionando a palavra-chave "static" antes do tipo de dado, o mesmo poderá ser utilizado dentro do método main, que é estático. Ou seja, dentro de métodos estáticos só podem ser usados outros atributos e métodos estáticos.
+
+public class CarroTeste {
+    static int numero = 5;
+    public static void main(String[] args) {
+        System.out.println(numero);
+    }
+}
+
+Como pode observar, um método estático pode ser chamado a partir da classe, por exemplo: "Classe.metodo()".
+
+=====> Links Úteis <=====
+
+https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html
+https://www.w3schools.com/java/java_modifiers.asp
+https://www.javatpoint.com/static-keyword-in-java
+https://www.javatpoint.com/static-function-in-java
