@@ -1,18 +1,13 @@
 package edu.danilotc.maratonajava.javacore.Gassociacao.dominio;
 
-public class Jogador {
+public class Time {
     private String nome;
     private Time time;
 
-    public Jogador(String nome) {
+    // Para tornar o atributo 'time' obrigatório utiliza-se o construtor,
+    // se adicionar ao construtor será obrigatório, do contrário, não.
+    public Time(String nome) {
         this.nome = nome;
-    }
-
-    public void imprime() {
-        System.out.println(this.nome);
-        if (time != null) {
-            System.out.println(time.getNome());
-        }
     }
 
     public String getNome() {

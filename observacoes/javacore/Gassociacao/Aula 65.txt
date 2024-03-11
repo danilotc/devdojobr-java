@@ -1,0 +1,18 @@
+Associação pt 02 - Associação unidirecional um para muitos
+
+A associação funciona igualmente ao banco de dados onde uma tabela está relacionada com outra através das cardinalidades, onde uma tabela está relacionada uma ou mais vezes com outra. Neste caso, essa relação acontece com orientação a objetos, entre instâncias distintas.
+
+Neste exemplo criamos uma classe chamada Time com atributo nome e time, construtor sobrecarregado apenas com nome e os métodos get/set de ambos os atributos.
+
+Em seguida, implementamos a classe Jogador adicionando o atributo time, incluindo os métodos get/set e verificando no método imprime se o time é null, para evitar o erro de apontamento de memória chamado NullPointerException.
+
+Dessa forma, um time pode ter vários jogadores, mas um jogador só pode ser de um único time, conforme exemplo abaixo.
+
+Jogador 1 -- 1 Personagem
+Time 1 -- N Jogador
+Jogador N -- 1 Time
+Estudante N -- N Curso
+
+===> Links Úteis <===
+
+https://acervolima.com/associacao-composicao-e-agregacao-em-java
