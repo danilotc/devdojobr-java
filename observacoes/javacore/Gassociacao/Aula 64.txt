@@ -1,0 +1,21 @@
+Associação pt 01 - Arrays com Objeto
+
+Array com objeto nada mais é do que criar um array e colocar nas posições instâncias do objeto em questão. No exemplo desta aula foi apresentado como fazer isso, criamos uma classe com atributo, construtor, métodos get/set e um método para imprimir o valor do atributo.
+
+A criação de array com objeto é feita da mesma forma quando criamos e atribuímos a cada posição um valor primitivo, a diferença é que essa atribuição está sendo feita com objetos e não com valores primmitivos. Por isso é necessário criar o objeto e depois atribuí-lo.
+
+Neste exemplo está sendo usado a sobrecarga do construtor com um parâmetro porque foi o que criamos e por isso precisamos passar o nome do jogador no ato da criação da instância.
+
+Jogador jogador1 = new Jogador("Nome do Jogador 1");
+Jogador jogador2 = new Jogador("Nome do Jogador 2");
+
+Neste momento criamos o array do tipo Jogador e atribuímos um objeto a ele. Aqui podemos criar o array de três formas diferentes, estamos usando a terceira opção:
+
+Jogador[] jogadores = new Jogador[3];
+Jogador[] jogadores = new Jogador[]{jogador1, jogador2}
+Jogador[] jogadores = {jogador1, jogador2}
+
+=====> Links Úteis <=====
+
+https://www.w3schools.com/java/java_arrays.asp
+https://www.javatpoint.com/how-to-create-array-of-objects-in-java

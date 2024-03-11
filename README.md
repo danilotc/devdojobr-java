@@ -88,7 +88,7 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 61 - Orientação Objetos - Modificador static
 1. [x] Maratona Java 62 - Orientação Objetos - Métodos estáticos
 1. [x] Maratona Java 63 - Orientação Objetos - Bloco de inicialização estático
-1. [ ] Maratona Java 64 - Orientação Objetos - Associação pt 01 - Arrays com Objetos
+1. [x] Maratona Java 64 - Orientação Objetos - Associação pt 01 - Arrays com Objetos
 1. [ ] Maratona Java 65 - Orientação Objetos - Associação pt 02 - Associação unidirecional um para muitos
 1. [ ] Maratona Java 66 - Orientação Objetos - Associação pt 03 - Associação unidirecional muitos para um
 1. [ ] Maratona Java 67 - Orientação Objetos - Associação pt 04 - Associação bidirecional
