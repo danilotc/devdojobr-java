@@ -1,0 +1,59 @@
+Associação pt 03 - Associação unidirecional muitos para um
+
+Esta aula mostra como uma associação entre professor e escola pode ser feita de forma unidirecional (muitos para um) usando programação orientada a objetos, neste caso uma escola pode ter vários professores, enquando um professor só pode estar associado a uma escola. Basicamente isso é feito adicionando uma lista de professores na classe Escola.
+
+Na classe que contém o método main (EscolaTeste01), uma instância da classe professor será criada primeiro porque ela não possui dependência, isto é, ela não está associada a nenhuma outra classe.
+
+Em seguida, uma lista de objetos professores é criada. Logo depois, uma instância de escola é criada utilizando o construtor sobrecarregado com nome da escola e a lista de professores.
+
+Por fim, é só imprimir tudo usando o método imprime do objeto escola.
+
+----------------------------------------------------------------------------------
+1 | Criar classe Professor     | que não possui nenhuma dependência associativa
+2 | Criar classe Escola        | associando a ela uma lista de professores
+3 | Criar classe EscolaTeste01 | para testar a associação entre escola e professor
+----------------------------------------------------------------------------------
+
+public class Professor {
+    private String nome;
+
+    // construtor, getter, setter
+}
+
+public class Escola {
+    private String nome;
+    private Professor[] professores;
+
+    // construtor apenas com nome
+
+    // construtor sobrecarregado com nome e lista de professores
+
+    public void imprime() {
+        // imprime nome da escola
+        // verifica se a lista de professores é nula, se verdadeiro sai do método
+        // percorre todos os elementos da lista e imprime o nome de cada professor
+    }
+
+    // getter, setter
+}
+
+public class EscolaTeste01 {
+    public static void main(String[] args) {
+        // cria instancia de professor
+
+        // cria uma lista de objetos do tipo Professor
+
+        // cria instancia de escola com todos os professores
+
+        // imprime escola e seus professores
+    }
+}
+
+===> Links Úteis <===
+
+https://www.w3schools.com/java
+https://www.tutorialspoint.com/java
+https://docs.oracle.com/en/java/javase/17/docs/api
+
+Aula que pode ajudar a compreender o conceito
+https://www.youtube.com/watch?v=S3xtLfo2IuQ&list=PLTLAlheiUm5HVhAjNBvpkLIqRP4CSr3M0&index=10&t=41s
