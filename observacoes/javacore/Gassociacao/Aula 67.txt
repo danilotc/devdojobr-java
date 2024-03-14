@@ -1,0 +1,17 @@
+Associação pt 04 - Associação bidirecional
+
+Nesta aula foi mostrado como realizar uma relação entre classes de forma bidirecional, essa relação é chamada de associação e é bidirecional porque a relação é feita da classe A para a classe B e vice-versa.
+
+A classe Time ganhou um novo atributo para armazenar uma lista de objetos do tipo Jogador. Com ele também foi criado um construtor e um método para mostrar os dados. Dentro desse método tem um fluxo que verifica se o novo atributo está nulo para decidir se é o momento de sair do método ou continuar executando as outras instruções. Essa verificação é necessária para evitar o erro chamado NullPointerException, pois se for nulo significa que o objeto em questão nem foi instanciado.
+
+
+===> Links Úteis <===
+
+Aula que pode ajudar a compreender o conceito
+https://www.youtube.com/watch?v=S3xtLfo2IuQ&list=PLTLAlheiUm5HVhAjNBvpkLIqRP4CSr3M0&index=10&t=41s
+https://www.treinaweb.com.br/blog/gerenciamento-de-memoria-no-c-stack-heap-value-types-e-reference-types
+https://www.guru99.com/java-stack-heap.html
+https://www.educative.io/blog/stack-vs-heap
+
+Entendendo divisao da memoria stack e heap
+https://pt.stackoverflow.com/questions/3797/o-que-s%C3%A3o-e-onde-est%C3%A3o-a-stack-e-heap
