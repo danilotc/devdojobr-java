@@ -92,8 +92,8 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 65 - Orientação Objetos - Associação pt 02 - Associação unidirecional um para muitos
 1. [x] Maratona Java 66 - Orientação Objetos - Associação pt 03 - Associação unidirecional muitos para um
 1. [x] Maratona Java 67 - Orientação Objetos - Associação pt 04 - Associação bidirecional
-1. [ ] Maratona Java 68 - Orientação Objetos - Leitura de dados pelo console
-1. [ ] Maratona Java 69 - Orientação Objetos - Exercício leitura de dados do teclado
+1. [x] Maratona Java 68 - Orientação Objetos - Leitura de dados pelo console
+1. [x] Maratona Java 69 - Orientação Objetos - Exercício leitura de dados do teclado
 1. [ ] Maratona Java 70 - Orientação Objetos - Associação pt 05 - Exercício Associação
 1. [ ] Maratona Java 71 - Orientação Objetos - Herança pt 01
 1. [ ] Maratona Java 72 - Orientação Objetos - Herança pt 02 - Super
