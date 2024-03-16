@@ -94,7 +94,7 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 67 - Orientação Objetos - Associação pt 04 - Associação bidirecional
 1. [x] Maratona Java 68 - Orientação Objetos - Leitura de dados pelo console
 1. [x] Maratona Java 69 - Orientação Objetos - Exercício leitura de dados do teclado
-1. [ ] Maratona Java 70 - Orientação Objetos - Associação pt 05 - Exercício Associação
+1. [x] Maratona Java 70 - Orientação Objetos - Associação pt 05 - Exercício Associação
 1. [ ] Maratona Java 71 - Orientação Objetos - Herança pt 01
 1. [ ] Maratona Java 72 - Orientação Objetos - Herança pt 02 - Super
 1. [ ] Maratona Java 73 - Orientação Objetos - Herança pt 03 - protected
