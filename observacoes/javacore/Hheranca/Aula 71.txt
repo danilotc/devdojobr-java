@@ -1,0 +1,25 @@
+Orientação Objetos - Herança pt 01
+
+Associação vista nas aulas anteriores tem um acomplamento menor que herança, os termos utilizados para descrever essas duas relações são:
+
+Para associação usa-se o termo: TEM UM
+    A CLASSE X TEM INFORMAÇÕES DA CLASSE Y
+    X É COMPOSTO POR Y
+
+Para herança usa-se o termo: É UM
+    A CLASSE X É UM TIPO DA CLASSE Y
+    X É DO MESMO TIPO DE Y
+        CACHORRO É UM TIPO DE ANIMAL onde Animal é uma classe e Cachorro é outra que herda informações da classe Animal.
+
+Usa-se herança quando se quer estender as funcionalidades de uma classe e manter um relacionamento entre elas. Por isso, ao utilizar herança o código fica fortemente acoplado.
+
+Use quando:
+    - se quer estender as funcionalidades de uma classe
+    - se quer usar polimorfismo
+
+
+===> Links Úteis <===
+
+https://docs.oracle.com/javase%2Ftutorial%2F/java/IandI/subclasses.html
+https://www.alura.com.br/apostila-java-orientacao-objetos/heranca-reescrita-e-polimorfismo
+http://www.decom.ufop.br/romildo/bcc221.2011-1/slides/cap09.pdf
