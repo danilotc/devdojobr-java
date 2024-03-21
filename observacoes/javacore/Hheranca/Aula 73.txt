@@ -1,0 +1,19 @@
+Orientação Objetos - Herança pt 03 - protected
+
+O modificador 'protected' permite que métodos e atributos sejam acessados diretamente por qualquer subclasse em qualquer pacote ou qualquer classe no mesmo pacote.
+
+protected:
+    - atributos e metodos podem ser acessados diretamente como se fossem publicos
+    - quem acessa pode ser uma subclasses e estar em qualquer pacote para acessar
+    - se não for uma subclasse precisa estar no mesmo pacote para ter acesso
+
+Para exemplificar este conceito, modificamos os modificadores dos atributos da classe Pessoa de 'private' para 'protected', dessa forma os conceitos acima opdem ser aplicados. Assim, subclasses em qualquer pacote ou classes no mesmo pacote podem ter acesso aos atributos como se fossem publicos.
+
+
+=== > Links Úteis <===
+
+https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
+https://www.tutorialspoint.com/java/java_access_modifiers.htm
+https://www.javatpoint.com/access-modifiers
+https://www.baeldung.com/java-access-modifiers
+https://blog.grancursosonline.com.br/java-modificadores-de-acesso-parte-i-teoria
