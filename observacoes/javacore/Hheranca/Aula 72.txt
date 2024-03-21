@@ -1,0 +1,20 @@
+Orientação Objetos - Herança pt 02 - Super
+
+A superclasse (Pessoa) e a subclasse (Funcionario) possuem o mesmo método, a subclasse está sobrescrevendo o método imprime que foi definido na superclasse. Neste caso, as propriedades definidas no método da classe Pessoa não serão impressos.
+
+Para que o conteúdo definido no escopo do método imprime da classe Pessoa também seja impressoa partir do método sobrescrito na classe Funcionario, podemos usar a palavra-chave "super" para acessar métodos e atributos da superclasse. Assim, a classe Funcionário poderá chamar métodos e atributos da classe Pessoa a partir da instrução super:
+
+    - super.metodo()
+    - super.atributo
+
+Neste exemplo estamos:
+
+    - sobrescrevendo o método imprime da superclasse Pessoa
+    - estamos invocando o método imprime da superclasse Pessoa a partir da palavra-chave super
+    - estamos imprimindo o salário do funcionário
+
+
+public void imprime() {
+    super.imprime();
+    System.out.println(this.getSalario());
+}

@@ -3,6 +3,11 @@ package edu.danilotc.maratonajava.javacore.Hheranca.dominio;
 public class Funcionario extends Pessoa {
     private double salario;
 
+    public void imprime() {
+        super.imprime();
+        System.out.println(this.getSalario());
+    }
+
     public double getSalario() {
         return salario;
     }
