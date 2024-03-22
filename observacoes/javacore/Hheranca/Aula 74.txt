@@ -1,0 +1,40 @@
+Orientação Objetos - Herança pt 04 - Construtores
+
+Se a superclasse precisa de um valor para ser instanciado, a subclasse também precisa informar esse valor para conseguir instanciar, por exemplo, nome só tem na superclasse, se a subclasse quiser criar uma instância precisará passar um nome de forma obrigatória através do construtor usando o método super(). Para isso, poderá utilizar, no Intellij, os seguintes atalhos: (control + o) ou (alt + insert >> Override Methods).
+
+Logo, se tem construtor com argumento na superclasse, todas as filhas precisarão ser alteradas para informar esse valor na hora de criar a instância.
+
+
+NA CLASSE PESSOA
+
+// Com esse construtor o nome torna-se obrigatório na hora de criar uma instância de Pessoa.
+public Pessoa(String nome) {
+    this.nome = nome;
+}
+
+// Com esse construtor sobrecarregado nome e cpf tornam-se obrigatórios na hora de criar a instância de Pessoa.
+// Para isso, pode-se usar para instanciar nome o construtor com essa finalidade, através da do método this() e cpf usando o operador this.
+
+public Pessoa (String nome, String cpf) {
+    this(nome);
+    this.cpf = cpf;
+}
+
+
+NA CLASSE FUNCIONARIO
+
+// control + o
+// alt + insert > Override Methods
+
+// Necessário informar um nome através do construtor usando o método super()
+public Funcionario(String nome) {
+    super(nome);
+}
+
+===> Links Úteis <===
+
+https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html
+https://www.tutorialspoint.com/java/java_constructors.htm
+https://www.w3schools.com/java/java_constructors.asp
+https://www.geeksforgeeks.org/constructors-in-java
+https://www.programiz.com/java-programming/constructors
