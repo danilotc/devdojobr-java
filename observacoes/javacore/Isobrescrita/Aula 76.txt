@@ -1,0 +1,26 @@
+Orientação Objetos - Sobrescrita do método toString
+
+a classe Object retorna a concatenação de:
+    - pacote.nome_da_classe + @ + hashCode
+    - getClass().getName()  + @ + Integer.toExString(hashCode())
+
+Por exmeplo, ao herdar a classe Object de forma explicita em Anime, acessar e procurar por toString encontramos:
+public String toString() {
+    return getClass().getName() + "@" + Integer.toHexString(hashCode());
+}
+
+O retorno da impressão de um objeto sem a sobrescrita do método toString é assim:
+edu.danilotc.maratonajava.javacore.Isobrescrita.dominio.Anime@1b28cdfa
+
+Regras:
+    - nome precisa ser exatamente o mesmo
+    - quantidade deparametros também precisa ser o mesmo
+    - retorno precisa ser a classe ou alguma subclasse (chamado de co-variancia de retorno)
+
+Adicionando a anotação @Override no méotodo que irá sobrescrever toString, indica que esse método está sendo sobrescrito, além do ícone que aparece no intellij indicando o mesmo. A diferença é que, usando anotação, caso o nome do método sobrescrito mude um erro de compilação será apresentado na anotação.
+
+
+===> Links Úteis <===
+
+https://www.impacta.com.br/blog/como-usar-o-metodo-tostring-em-java
+https://www.baeldung.com/java-tostring
