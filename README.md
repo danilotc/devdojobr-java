@@ -99,7 +99,7 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 72 - Orientação Objetos - Herança pt 02 - Super
 1. [x] Maratona Java 73 - Orientação Objetos - Herança pt 03 - protected
 1. [X] Maratona Java 74 - Orientação Objetos - Herança pt 04 - Construtores
-1. [ ] Maratona Java 75 - Orientação Objetos - Herança pt 05 - Sequência de inicialização
+1. [x] Maratona Java 75 - Orientação Objetos - Herança pt 05 - Sequência de inicialização
 1. [ ] Maratona Java 76 - Orientação Objetos - Sobrescrita do método toString
 1. [ ] Maratona Java 77 - Orientação Objetos - Modificador final pt 01 - Tipo primitivo
 1. [ ] Maratona Java 78 - Orientação Objetos - Modificador final pt 02 - Tipo referência
