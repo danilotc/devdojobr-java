@@ -1,0 +1,28 @@
+Orientação Objetos - Modificador final pt 03 - Classes e métodos
+
+Classes definidas com modificador final não podem ser estendidas, logo não podem ter filhos, é uma classe estéril.
+
+O comportamento das classes Carro e Ferrari abaixo não pode acontecer porque a classe Carro é final, indicando que não pode ser estendida.
+
+public final class Carro {}
+public class Ferrari extends Carro {}
+
+Outro exemplo de classe final é a classe String, acesse essa classe e observe sua definição.
+
+O mesmo comportamento acontece com os métodos, quando um método é definido como final significa que ele não pode ser sobrescrito pelas classes filhas. O comportamento exemplificado abaixo apresenta um erro de compilação.
+
+public class Carro {
+    public final void imprime() {}
+}
+
+public class Ferrari extends Carro {
+    @Override
+    public void imprime() {}
+}
+
+Assim como a classe String, como não é possível estender a classe, também não é possível acessar nenhum de seus métodos. Dessa forma, garante-se que nenhum de seus métodos será sobrescrito.
+
+
+===> LinksÚteis <===
+https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+https://docs.oracle.com/javase/tutorial/java/IandI/final.html
