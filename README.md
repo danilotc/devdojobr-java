@@ -102,7 +102,7 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 75 - Orientação Objetos - Herança pt 05 - Sequência de inicialização
 1. [x] Maratona Java 76 - Orientação Objetos - Sobrescrita do método toString
 1. [x] Maratona Java 77 - Orientação Objetos - Modificador final pt 01 - Tipo primitivo
-1. [ ] Maratona Java 78 - Orientação Objetos - Modificador final pt 02 - Tipo referência
+1. [x] Maratona Java 78 - Orientação Objetos - Modificador final pt 02 - Tipo referência
 1. [ ] Maratona Java 79 - Orientação Objetos - Modificador final pt 03 - Classes e métodos
 1. [ ] Maratona Java 80 - Orientação Objetos - Enumeração pt 01 - Introdução
 1. [ ] Maratona Java 81 - Orientação Objetos - Enumeração pt 02 - Construtores e atributos

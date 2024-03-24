@@ -1,0 +1,10 @@
+Orientação Objetos - Modificador final pt 02 - Tipo referência
+
+Quando se quer modificar valores de um objeto definido como final poderá ser utilizado o padrão singleton pattern.
+
+Ao utilizar a palavra-chave final em atributos definidos como referência de objetos, significa que a referência não poderá ser modificada ao longo do programa.
+
+
+===> Links Úteis <===
+https://www.javatpoint.com/final-object-in-java
+https://www.youtube.com/watch?v=858FJ6DQRVg
