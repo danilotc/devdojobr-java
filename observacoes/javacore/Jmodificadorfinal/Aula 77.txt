@@ -1,0 +1,32 @@
+Orientação Objetos - Modificador final pt 01 - Tipo primitivo
+
+O modificador final pode ter algumas variações de inicialização e uso bastante interessante e que vale a pena analisar.
+
+Exemplo 1 - variável primitiva com modificador final:
+
+1. Quando uma variável primitiva é definida com modificador final, chama-se constante;
+2. Toda constante é definida com letras MAIÚSCULAS e precisa ter um valor atribuído;
+3. Esse valor pode ser atribuído de algumas formas, por exmeplo:
+    a) Atribuição direta: public final double MINHA_CONSTANTE = 150;
+    b) Atribuição através do bloco de inicialização não-estático: {MINHA_CONSTANTE = 150;}
+    c) Atribuição através do construtor.
+
+Um atributo definido com modificador final deve ser acessado através do objeto.
+
+
+Exemplo 2 - variável primitiva com modificador final estático:
+
+1. Quando uma variável é definida com modificador final e estático, chama-se constante estática;
+2. Por ser definido com modificador final, torna-se constante e deve ser escrita com letras MAÍUSCULAS;
+3. Uma variável primitiva estática final pode ser inicializada de algumas formas, por exemplo:
+    a) Atribuição direta: public static final double MINHA_CONSTANTE = 120;
+    b) Atribuição através do bloco de inicialização estático: static{MINHA_CONSTANTE = 120;}
+
+Um atributo definido com modificador estático deve ser acessado através da classe.
+
+
+===> Links Úteis <===
+
+https://www.geeksforgeeks.org/final-keyword-in-java
+https://pt.wikibooks.org/wiki/Java/Modificadores
+https://www.w3schools.com/java/ref_keyword_final.asp
