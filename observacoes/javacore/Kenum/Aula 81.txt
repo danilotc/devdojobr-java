@@ -1,0 +1,44 @@
+Orientação Objetos - Enumeração pt 02 - Construtores e atributos
+
+Enumeração pode receber 'parametros', por exemplo:
+
+public enum MeuArquivoEnum {
+    PESSOA_FISICA(1, "Pessoa Física");
+}
+
+Nessa instrução os parametros são atributos, o enum precisa ter um atributo do tipo inteiro e outro do tipo String, inicializados através do construtor ou através de uma das inicializações (estática ou não estática).
+
+Ex1 - inicialiando pelo construtor o atributo também pode ser definido como final
+
+---------------------------------> sem atributo final
+private int valor;
+public MeuArquivoEnum(int valor) {
+    this.valor = valor;
+}
+
+public int getValor() {
+    return valor;
+}
+
+---------------------------------> com atributo final
+private final int VALOR;
+public MeuArquivoEnum(int valor) {
+    this.VALOR = valor;
+}
+
+public int getValor() {
+    return VALOR;
+}
+
+
+===> Links Úteis <===
+
+Loiane
+https://www.youtube.com/watch?v=EdEKx24xHGc
+
+Boson
+https://www.youtube.com/watch?v=ScPe4eWFTQ4
+https://www.bosontreinamentos.com.br/java/como-trabalhar-com-o-tipo-enum-em-java-enumeracoes
+
+Java progressivo
+https://www.javaprogressivo.net/2012/10/Como-usar-enumA-melhor-maneira-para-manusear-constantes-em-Java.html
