@@ -1,0 +1,30 @@
+Orientação Objetos - Enumeração pt 01 - Introdução
+
+Um cliente é uma pessoa que pode ser física ou jurídica, essas duas categorias podem ser escritas pelo cliente de uma forma não padronizada, por isso podemos criar constantes. Entretanto, constatnes estáticas e finais não são recomendadas para este caso. Recomenda-se usar enumeração (enum).
+
+Enumeração no java, a princício, é uma classe com algumas palavras escritas em maiúscula separados por vírgula, caso tenha mais de um:
+
+public enum MinhaClasseEnum {
+    PRIMEIRO_VALOR,
+    SEGUNDO_VALOR
+}
+
+Por ser uma classe ela pode ter uma relação com Cliente de agregação, ou seja, um cliente tem um tipo físico que pode ser pessoa física ou pessoa jurídica. Neste caso, como visto em aulas anteriores, é criado um atributo do tipo MinhaClasseEnum.
+
+Ao criar uma instância de Cliente, é necessário informar o tipo do cliente acessando da seguinte forma:
+
+MinhaClasseEnum.PRIMEIRO_VALOR
+MinhaClasseEnum.SEGUNDO_VALOR
+
+
+===> Links Úteis <===
+
+Boson
+https://www.youtube.com/watch?v=ScPe4eWFTQ4
+https://www.bosontreinamentos.com.br/java/como-trabalhar-com-o-tipo-enum-em-java-enumeracoes
+
+Loiane
+https://www.youtube.com/watch?v=EdEKx24xHGc
+
+https://blog.betrybe.com/java-enum
+https://www.javaprogressivo.net/2012/10/Como-usar-enumA-melhor-maneira-para-manusear-constantes-em-Java.html
