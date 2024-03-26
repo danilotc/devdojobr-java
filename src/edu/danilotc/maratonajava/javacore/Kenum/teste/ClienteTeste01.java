@@ -12,5 +12,13 @@ public class ClienteTeste01 {
         System.out.println(cliente2);
         System.out.println(TipoPagamento.DEBITO.calcularDesconto(100));
         System.out.println(TipoPagamento.CREDITO.calcularDesconto(100));
+
+        // Retorna o valor no parâmetro definido na constante chamada PESSOA_FISICA
+        TipoCliente tipoCliente1 = TipoCliente.valueOf("PESSOA_FISICA");
+        System.out.println(tipoCliente1.getNomeRelatorio());
+
+        // Retorna a constante, o tipo do cliente pelo valor do seu parâmetro chamado nomeRelatorio.
+        TipoCliente tipoCliente2 = TipoCliente.tipoClientePorNomeRelatorio("Pessoa Física");
+        System.out.println(tipoCliente2);
     }
 }

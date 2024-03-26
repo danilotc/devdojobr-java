@@ -107,7 +107,7 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 80 - Orientação Objetos - Enumeração pt 01 - Introdução
 1. [x] Maratona Java 81 - Orientação Objetos - Enumeração pt 02 - Construtores e atributos
 1. [x] Maratona Java 82 - Orientação Objetos - Enumeração pt 03 - Sobrescrita de métodos
-1. [ ] Maratona Java 83 - Orientação Objetos - Enumeração pt 04 - Busca por atributos
+1. [x] Maratona Java 83 - Orientação Objetos - Enumeração pt 04 - Busca por atributos
 1. [ ] Maratona Java 84 - Orientação Objetos - Classes abstratas pt 01
 1. [ ] Maratona Java 85 - Orientação Objetos - Classes abstratas pt 02 - Métodos abstratos
 1. [ ] Maratona Java 86 - Orientação Objetos - Classes abstratas pt 03 - Métodos abstratos regras

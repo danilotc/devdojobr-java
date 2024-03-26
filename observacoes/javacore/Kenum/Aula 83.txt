@@ -1,0 +1,28 @@
+Orientação Objetos - Enumeração pt 04 - Busca por atributos
+
+.values()  ==> Retorna um array  ==> TipoCliente[]
+.valueOf() ==> Retorna um objeto ==> TipoCliente
+
+o método values() só aceita como argumento a constante do enum e retorna seu valor, por exemplo:
+
+Considerando que a constante está definida da seguinte forma: PESSOA_FISICA(1, "Pessoa Física")
+TipoCliente.valueOf("PESSOA_FISICA") ==> PESSOA_FISICA
+
+Usando o método getter getNomeRelatorio() podemos acessar o valor "Pessoa Física" dessa forma:
+TipoCliente.valueOf("PESSOA_FISICA").getNomeRelatorio() ==> "Pessoa Física"
+
+O MÉTODO TipoCliente
+
+1. Este método precisa ser estático para conseguir ser utilizado a partir da classe, sem depender de uma instância.
+2. A estrutura de repetição percorre os valores persentes em cada constante no enum (PESSOA_FÍSICA, PESSOA_JURIDICA).
+3. No fluxo é verificado se o nome definido na constante é igual ao nome passado como argumento, retornando a constante.
+4. Caso a repetição percorra todas as constantes e o nome definido na constante não seja igual ao argumento, retorna null.
+
+public static TipoCliente tipoClientePorNomeRelatorio(String nomeRelatorio) {
+    for (TipoCliente tipoCliente : values()) {
+        if (tipoCliente.getNomeRelatorio().equals(nomeRelatorio)) {
+            return tipoCliente;
+        }
+    }
+    return null;
+}
