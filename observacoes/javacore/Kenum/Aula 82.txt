@@ -1,0 +1,43 @@
+Orientação Objetos - Enumeração pt 03 - Sobrescrita de métodos
+
+Na sobrescrita de métodos temos um enum definido com duas constantes: DEBITO e CREDITO. Estas constantes podem ter escopo definido por um par de chaves {}. Dentro desse escopo é onde sobrescrevemos o método que, neste caso específico, implementa o método que calcula um desconto ao pagar com débito ou crédito.
+
+Como ainda não vimos sobre classes abstratas isso poderá ficar um conceito raso, mas a princício, teremos um métotodo que precisará ser abstrato, isso significa que ele não terá corpo delimitado por chaves, será apenas uma assinatura.
+
+Obs.: quando não há métodos a última constante não precisa ser finalizada com ponto-e-vírgula (;). Mas, como terá um método, será necessário finalizar com ;
+
+public enum MeuEnum {
+    DEBITO,
+    CREDITO;
+
+    public double calcularDesconto(double valor) {
+        return 0;
+    }
+}
+
+A sobrescrita de métodos em enum acontece dentro do escopo de cada constante, além disso, o método que será sobrescrito não deve ter corpo e deve ser definido como abstrato. Dessa forma teremos um método que será implementado por quem for utilizar, neste caso, por débito ou crédito, como no exemplo baixo:
+
+DEBITO {
+    // Aqui acontece a sobrescrita do método
+}
+
+public enum MeuEnum {
+    DEBITO {
+        public double calcularDesconto(double valor) {
+            return valor * 0.1;
+        }
+    },
+    CREDITO {
+        public double calcularDesconto(double valor) {
+            return valor * 0.05;
+        }
+    };
+
+    public abstract double calcularDesconto(double valor);
+}
+
+===> Links Úteis <===
+
+https://jonascarmo.medium.com/java-enum-guia-pr%C3%A1tico-java-8-5d95a93334f4
+https://www.youtube.com/watch?v=fc6ctPYRS4g
+https://www.youtube.com/watch?v=YVW9h6jEUb4
