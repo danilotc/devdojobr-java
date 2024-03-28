@@ -1,0 +1,13 @@
+Orientação Objetos - Classes abstratas pt 03 - Métodos abstratos regras
+
+Java não pode ter herança múltipla, mas pode ter uma hierarquia maior.
+
+1. Existe uma classe chamada Funcioario definida como abstrata
+2. Existe outra classe chamada Gerente que estende Funcionario
+3. Uma classe chamada Pessoa também foi criada como abstrata
+4. Funcionario estendeu a classe abstrata Pessoa que possui um método abstrato
+5. A regra funciona da seguinte forma:
+    5.1. As subclasses de Funcionário devem implementar o método abstrato de Pessoa ou ser criadas como abstratas
+    5.2. A primeira classe dessa hierarquia, depois de Pessoa, deve implementar o método abstrato de Pessoa.
+
+Dessa forma, as subclasses de Funcionario pegará todas as implementações, por isso não será necessário implementar.
