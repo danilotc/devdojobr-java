@@ -1,0 +1,33 @@
+Orientação Objetos - Classes abstratas pt 01
+
+Basicamente a classe abstrata define o modelo do que será implementado em outra classe, aquela que irá herdar a classe abstrata terá que implementar suas definições, como a classe Funcionario, por exemplo, ela é abstrata e tem dois atributos e um construtor definidos. Por ser abstrata ela não poderá ser instanciada, apenas seus filhos poderão criar instâncias com as definições de Funcionário.
+
+public abstract class Funcionario {
+    protected String nome;
+    protected double salario;
+
+    public Funcionario(String nome, double salario) {
+        this.nome = nome;
+        this.salario = salario;
+    }
+}
+
+Aqui a classe Desenvolvedor está herdando a classe Funcionario que é abstrata. Por ser abstrata, desenvolvedor terá que, obrigatoriamente, ter um construtor com dois parâmetros e utilizando o método super(). Para finalizar, desenvolvedor também pode sobrescrever o método toString para garantir que as informações da instância serão apresentadas corretamente.
+
+public class Desenvolvedor extends Funcionario {
+    public Desenvolvedor(String nome, double valor) {
+        super(nome, valor);
+    }
+
+    @Override
+    public String toStrint() {
+        return "Desenvolvedor{Nome=" + nome + ", Salario=" + salario + "}";
+    }
+}
+
+
+===> Links Úteis <===
+https://www.digitalocean.com/community/tutorials/abstract-class-in-java
+https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html
+https://www.w3schools.com/java/ref_keyword_abstract.asp
+https://www.geeksforgeeks.org/abstract-classes-in-java
