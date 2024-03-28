@@ -1,0 +1,9 @@
+Orientação Objetos - Classes abstratas pt 02 - Métodos abstratos
+
+Métodos abstratos funcionam como se fossem uma etiqueta informando que a classe que estender deverá implementar.
+
+public abstract void calculaBonus();
+
+Observe que o método não tem corpo, isso indica que ele deve ser implementado dentro da classe que estender a classe que possui esse método.
+
+Outro ponto também é que esse método deve ser chamado dentro do construtor da classe abstrata, ou em qualquer outra que a estender. Chamando na classe abstrata você garante que todas as demais classes que a estender terão seu bonus calculado independente de ser chamado no construtor da subclasse.
