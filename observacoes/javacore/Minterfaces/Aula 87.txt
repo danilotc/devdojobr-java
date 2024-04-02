@@ -1,0 +1,25 @@
+Orientação Objetos - Interfaces pt 01 - Introdução
+
+A interface define um modelo que deve ser cumprido pela classe que a implementar. Exatamente, diferente da herança onde usamos a palavra 'extends', para interfaces usamos a palavra-cheve 'implements', essa palavra é usada quando criamos uma classe que irá implementar, de forma específica e obrigatória, TODOS os métodos definidos na interface.
+
+Definição de uma interface:
+
+public interface Veiculo {
+    public abstract void ligar();
+    public abstract void desligar();
+}
+
+Outra característica de uma interface é que todos os métodos assinados por ela são públicos e abstratos, essas duas palavras-chave são definidas por padrão em métodos assinados em interfaces, por isso podem ser omitidas deixando os métodos definidos apenas com o tipo de retorno, o nome do método e sem corpo, da seguinte forma:
+
+void ligar();
+void desligar();
+
+Obs.: As palavras-chave 'public' e 'abstract' dos métodos assinados podem mudar, mas isso será abordado em outras aulas.
+
+
+===> Links Úteis <===
+
+https://www.freecodecamp.org/portuguese/news/interfaces-em-java-explicadas-com-exemplos
+https://www.devmedia.com.br/entendendo-interfaces-em-java/25502
+https://www.w3schools.com/java/java_interface.asp
+https://www.youtube.com/watch?v=6uLLfRNgRA4
