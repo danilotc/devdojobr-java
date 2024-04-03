@@ -112,7 +112,7 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 85 - Orientação Objetos - Classes abstratas pt 02 - Métodos abstratos
 1. [x] Maratona Java 86 - Orientação Objetos - Classes abstratas pt 03 - Métodos abstratos regras
 1. [x] Maratona Java 87 - Orientação Objetos - Interfaces pt 01 - Introdução
-1. [ ] Maratona Java 88 - Orientação Objetos - Interfaces pt 02 - Implementando múltiplas interfaces
+1. [x] Maratona Java 88 - Orientação Objetos - Interfaces pt 02 - Implementando múltiplas interfaces
 1. [ ] Maratona Java 89 - Orientação Objetos - Interfaces pt 03 - Atributos e métodos estáticos
 1. [ ] Maratona Java 90 - Orientação Objetos - Polimorfismo pt 01 - Introdução
 1. [ ] Maratona Java 91 - Orientação Objetos - Polimorfismo pt 02 - Funcionamento

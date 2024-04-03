@@ -1,0 +1,37 @@
+Orientação Objetos - Interfaces pt 02 - Implementando múltiplas interfaces
+
+A partir da versão 8 do java foi introduzido o 'default' para implementar métodos concretos em interfaces, a estrutura disso fica da seguinte forma:
+
+public interface MinhaInterface {
+    [public] default void checandoPermissoes() {
+        // implementacao
+    }
+}
+
+O modificador 'public' é opcional, adicioná-lo a implementação é redundante. Utilize a palavra 'default' para implementar métodos concretos na initerface sem 'quebrar' outras implementações. Esse método também poderá ser sobrescrito, só que não de forma obrigatória. Os métodos concretos de uma interface proveem implementações padrão (em nível de interface).
+
+Obs.: Para pesquisar no intellij a classe Collection, como o professor mostrou na aula, utilize a combinação de teclas control+N. E para implementar um método da interface, seja concreto ou assinado, utilize a combinação de teclas control+O (control + ó).
+
+A implementação de múltiplas interfaces no java funciona da seguinte forma:
+
+public interface Interface1 {
+    void metodoDaInterface1();
+}
+
+public interface Interface2 {
+    void metodoDaInterface2();
+}
+
+public class ClasseTeste implements Interface1, Interface2 {
+    // implementar método da interface 1
+    // implementar método da interface 2
+}
+
+Com base nos três arquivos acima Interface1, Interface2 e ClasseTeste, pode-se notar que para implementar múltiplas interfaces em uma classe concreta basta separá-los por vírgula após a palavra-chave 'implements'. Mas atenção, será necessário implementar todos os métodos assinados de todas as interfaces implementadas.
+
+===> Links Úteis <===
+
+https://www.freecodecamp.org/portuguese/news/interfaces-em-java-explicadas-com-exemplos
+https://www.devmedia.com.br/entendendo-interfaces-em-java/25502
+https://www.w3schools.com/java/java_interface.asp
+https://www.youtube.com/watch?v=6uLLfRNgRA4
