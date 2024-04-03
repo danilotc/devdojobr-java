@@ -1,0 +1,34 @@
+Orientação Objetos - Interfaces pt 03 - Atributos e métodos estáticos
+
+Modificadores de acesso do mais restritivo para o menos restritivo
+
+private -> default -> protected -> public
+
+Todos os atributos em uma interface são públicos, estáticos e constrantes, ou seja, 'public static final'. Colocar essas três palavras-chave de forma explícita na definição de atributos na interface é redundante.
+
+EXEMPLO
+
+public interface MinhaInterface {
+    [public static final] int VALOR_INTEIRO = 5;
+}
+
+
+Métodos estáticos não são sobrescritos, cada um terá um método distinto e ambos podem ser chamados a partir da classe ou interface. O modificador de acesso 'public' é opcional, adicioná-lo de forma explícita é redundante.
+
+EXEMPLO
+
+public interface MinhaInterface {
+    [public] static void obterValorMaximo() {
+        // instrucao que obtenha algum valor maximo
+    }
+}
+
+public class MinhaClasse implements MinhaInterface {}
+
+public class Main {
+    public static void main(String[] args) {
+        MinhaClasse minhaClasse = new MinhaClasse();
+        minhaClasse.obterValorMaximo();
+        MinhaInterface.obterValorMaximo();
+    }
+}
