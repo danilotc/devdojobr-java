@@ -1,0 +1,11 @@
+Orientação Objetos - Polimorfismo pt 01 - Introdução
+
+1. Criamos uma classe abstrata chamada Produto, ela é abstrata porque ela não deve existir
+2. Criamos duas classes Computador e Tomate que extendem produto, elas são um produto com consrutor
+3. Criamos uma interface chamada Taxavel que tem um único método chamado calcularImposto
+4. O Produto implementa a interface Taxavel, mas a implementação do método é feita na primeira classe concreta de produto
+5. As classes Computador e Tomate implementam o método da interface
+6. Criamos uma classe de serviço chamada CalculadoraImposto com dois métodos:
+    6.1. calcularImpostoComputador tendo Computador como parâmetro e
+    6.2. calcularImpostoTomate tendo Tomate como parâmetro
+7. Criamos a classe ProdutoTeste01 para instanciar os objetos e testar tudo
