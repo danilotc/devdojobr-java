@@ -114,8 +114,8 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 87 - Orientação Objetos - Interfaces pt 01 - Introdução
 1. [x] Maratona Java 88 - Orientação Objetos - Interfaces pt 02 - Implementando múltiplas interfaces
 1. [x] Maratona Java 89 - Orientação Objetos - Interfaces pt 03 - Atributos e métodos estáticos
-1. [ ] Maratona Java 90 - Orientação Objetos - Polimorfismo pt 01 - Introdução
-1. [ ] Maratona Java 91 - Orientação Objetos - Polimorfismo pt 02 - Funcionamento
+1. [x] Maratona Java 90 - Orientação Objetos - Polimorfismo pt 01 - Introdução
+1. [x] Maratona Java 91 - Orientação Objetos - Polimorfismo pt 02 - Funcionamento
 1. [ ] Maratona Java 92 - Orientação Objetos - Polimorfismo pt 03 - Parâmetros polimórficos
 1. [ ] Maratona Java 93 - Orientação Objetos - Polimorfismo pt 04 - Cast e instanceof
 1. [ ] Maratona Java 94 - Orientação Objetos - Polimorfismo pt 05 - Programação orientada a interface
