@@ -1,0 +1,37 @@
+Orientação Objetos - Polimorfismo pt 05 - Programação orientada a interface
+
+Programação orientada a interface basicamente consiste em criar a variável de referência com o tipo mais genêrico referenciando para um objeto mais específico, semelhante as implementações das collections (List, ArrayList, LinkedList etc).
+
+Exemplo
+
+Repositorio é uma interface que possui um método para ser implementado.
+
+public interface Repositorio {
+    void salvar();
+}
+
+Em seguida, a classe RepositorioArquivo implementa a interface Repositorio.
+
+public class RepositorioArquivo implements Repositorio {
+    @Override
+    public void salvar() {
+        // implementacao para salvar no arquivo
+    }
+}
+
+Agora, para programar orientado a interface, vou criar a variável de referência "repositorio" com o tipo mais genêrico referenciando um objeto com tipo mais específico que implementa o método da interface. Dessa forma, o método salvar implementado na classe RepositorioArquivo será executado. Caso queira executar outro tipo de ação, basta criar outra classe, implementar o repositório e instanciar o objeto com "new NomeDaClasse()" sempre tendo como variável de referênca a interface.
+
+TipoInterface variavelDeReferencia = new ObjetoEspecifico();
+
+public class RepositorioTeste {
+    public static void main(String[] args) {
+        Repositorio repositorio = new RepositorioArquivo();
+        repositorio.salvar();
+    }
+}
+
+===> Links Úteis <===
+
+https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html
+https://www.w3schools.com/java/java_interface.asp
+https://edisciplinas.usp.br/pluginfile.php/3335003/mod_resource/content/1/Interface.pdf

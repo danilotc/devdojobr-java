@@ -118,7 +118,7 @@ A. Os assuntos são esses aqui:
 1. [x] Maratona Java 91 - Orientação Objetos - Polimorfismo pt 02 - Funcionamento
 1. [x] Maratona Java 92 - Orientação Objetos - Polimorfismo pt 03 - Parâmetros polimórficos
 1. [x] Maratona Java 93 - Orientação Objetos - Polimorfismo pt 04 - Cast e instanceof
-1. [ ] Maratona Java 94 - Orientação Objetos - Polimorfismo pt 05 - Programação orientada a interface
+1. [x] Maratona Java 94 - Orientação Objetos - Polimorfismo pt 05 - Programação orientada a interface
 1. [ ] Maratona Java 95 - Exceções pt 01 - Errors
 1. [ ] Maratona Java 96 - Exceções pt 02 - RuntimeException
 1. [ ] Maratona Java 97 - Exceções pt 03 - Exception
