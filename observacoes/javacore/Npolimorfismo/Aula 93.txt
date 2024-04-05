@@ -1,0 +1,12 @@
+Orientação Objetos - Polimorfismo pt 04 - Cast e instanceof
+
+O que signific ClassCastException?
+
+Resposta:
+"O java confiou em você e você decepcionou o java. Você não quer decepcionar o java, o java quando está decepcionado as coisas não ficam muito bem nessa vida."
+
+É importante sempre verificar se a referência do objeto que você quer fazer o cast é o mesmo recebido como argumento do método, verificando com a palavra-chave instanceof:
+
+if (ObjetoRecebido instanceof TipoDeObjetoEsperado) {
+    // implementacao
+}
